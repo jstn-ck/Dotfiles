@@ -1,5 +1,5 @@
 " vim: fdm=marker foldenable sw=4 ts=4 sts=4
-" Max Cantor's .vimrc File
+" 
 " "zo" to open folds, "zc" to close, "zn" to disable.
 
 " {{{ Clear all autocommands

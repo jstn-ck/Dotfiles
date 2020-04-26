@@ -2,4 +2,5 @@
 Dotfiles for Vim etc.
 
 
-`Vim
+vim ~/.vimrc
+

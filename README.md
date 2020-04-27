@@ -55,31 +55,31 @@ filetype plugin indent on    " required
 
 ## Vim
 
-j: move down one line
-k: move up one line
-h: move left one character
-l: move right one character
-0: move to the beginning of the line
-$: move to the end of the line
-w: move forward one word
-b: move back one word
-e: move to the end of your word
-): move forward one sentence
-}: move forward one paragraph
-:line_number: move to a given line number
-H: move to the top of the screen
-M: move to the middle of the screen
-L: move to the bottom of the screen
-^E: scroll up one line
-^Y: scroll down one line
-gg: go to the top of the file
-G: go to the bottom of the file
-^U: move up half a page
-^D: move down half a page
-^F: move down a page
-^B: move up a page
-Ctrl-i: jump to your previous navigation location
-Ctrl-o: jump back to where you were
+j: move down one line<br>
+k: move up one line<br>
+h: move left one character<br>
+l: move right one character<br>
+0: move to the beginning of the line<br>
+$: move to the end of the line<br>
+w: move forward one word<br>
+b: move back one word<br>
+e: move to the end of your word<br>
+): move forward one sentence<br>
+}: move forward one paragraph<br>
+:line_number: move to a given lin<br>e number
+H: move to the top of the screen<br>
+M: move to the middle of the screen<br>
+L: move to the bottom of the screen<br>
+^E: scroll up one line<br>
+^Y: scroll down one line<br>
+gg: go to the top of the fil<br>e
+G: go to the bottom of the file<br>
+^U: move up half a page<br>
+^D: move down half a page<br>
+^F: move down a page<br>
+^B: move up a page<br>
+Ctrl-i: jump to your previous navigation location<br>
+Ctrl-o: jump back to where you were<br>
 
 
 

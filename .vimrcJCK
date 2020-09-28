@@ -7,9 +7,12 @@
 
 " {{{ VUNDLE SETUP
 set number
+set virtualedit=onemore
+set mouse=a
 set nocompatible
 filetype off
 set rtp+=$HOME/.vim/bundle/Vundle.vim
+noremap $ $l
 call vundle#begin()
 
 Plugin 'gmarik/Vundle.vim'
@@ -58,7 +61,7 @@ set hidden
 set mouse=a
 
 "colorscheme
-color Monokai
+colorscheme monokai
 " Search
 set ignorecase smartcase
 set grepprg=grep\ -IrsnH

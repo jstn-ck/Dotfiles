@@ -2,7 +2,7 @@
 Dotfiles for Vim etc.
 
 
-vim ~/.vimrc
+vim ~/.vimrcY<br>
 mkdir ~/.vim/colors
 
 

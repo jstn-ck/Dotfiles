@@ -3,6 +3,7 @@ Dotfiles for Vim etc.
 
 
 vim ~/.vimrc
+mkdir ~/.vim/colors
 
 
 # Vundle setup

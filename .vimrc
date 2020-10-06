@@ -7,12 +7,13 @@
 
 " {{{ VUNDLE SETUP
 set number
-set virtualedit=onemore
-set mouse=a
 set nocompatible
+set directory^=$HOME/.vim/tmp//
+set virtualedit=onemore
+imap <C-Return> <CR><CR><C-o>k<Tab>
+noremap $ $l
 filetype off
 set rtp+=$HOME/.vim/bundle/Vundle.vim
-noremap $ $l
 call vundle#begin()
 
 Plugin 'gmarik/Vundle.vim'
@@ -33,7 +34,10 @@ Plugin 'tpope/vim-liquid'
 Plugin 'tpope/vim-fugitive'
 Plugin 'tpope/vim-git'
 Plugin 'mattn/emmet-vim'
-
+Plugin 'airblade/vim-gitgutter'
+Plugin 'honza/vim-snippets'
+Plugin 'morhetz/gruvbox'
+Plugin 'yggdroot/indentline'
 
 " {{{ NERDTree
 "     ========
@@ -63,7 +67,7 @@ set hidden
 set mouse=a
 
 "colorscheme
-colorscheme monokai
+color Monokai
 " Search
 set ignorecase smartcase
 set grepprg=grep\ -IrsnH
@@ -79,9 +83,8 @@ set history=500
 set hidden
 if has('persistent_undo')      "check if your vim version supports it
   set undofile                 "turn on the feature  
-  set undodir=$HOME/.vim/undo  "directory where the undo files will be stored
-  endif     
-
+	set undodir=$HOME/.vim/undo  "directory where the undo files will be stored
+endif    
 " Typing behavior
 set backspace=indent,eol,start
 set showmatch

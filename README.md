@@ -79,8 +79,8 @@ G: go to the bottom of the file<br>
 ^D: move down half a page<br>
 ^F: move down a page<br>
 ^B: move up a page<br>
-Ctrl-i: jump to your previous navigation location<br>
-Ctrl-o: jump back to where you were<br>
+Ctrl-i: jump to your previous navigation location // Buffer<br>
+Ctrl-o: jump back to where you were // Buffer<br>
 ggVG: Mark all<br>
 ggVG"*yy: Copy all<br>
 "*yy: Copy to clipboard system

@@ -5,6 +5,7 @@ Dotfiles for Vim etc.
 vim ~/.vimrc<br>
 mkdir ~/.vim/colors
 mkdir ~/.vim/tmp --- thats for swp files
+touch ~/.vim/.skeleton.html
 
 
 # Vundle setup

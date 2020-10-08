@@ -4,6 +4,7 @@ Dotfiles for Vim etc.
 
 vim ~/.vimrc<br>
 mkdir ~/.vim/colors
+mkdir ~/.vim/tmp --- thats for swp files
 
 
 # Vundle setup

@@ -101,5 +101,7 @@ Quick start, installing all completers<br>
 - Add set encoding=utf-8 to your vimrc<br>
 For plugging an arbitrary LSP server, check the relevant section<br>
 
+- py install.py --msvc=15 // fix 16 not found
+
 
 

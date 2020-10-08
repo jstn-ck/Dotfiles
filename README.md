@@ -101,7 +101,33 @@ Quick start, installing all completers<br>
 - Add set encoding=utf-8 to your vimrc<br>
 For plugging an arbitrary LSP server, check the relevant section<br>
 
-- py install.py --msvc=15 // fix 16 not found
+- py install.py --msvc=15 // fix 16 not found<br>
+
+
+Download and install the following with matching architectures(meaning you downloading and install either all 32-bit or all 64-bit versions)<br>
+vim (latest version at the time of writing is 81)<br>
+git<br>
+cmake<br>
+Visual Studio<br> 
+Python 3.6 (at the time of this writing 3.7 is the latest version, but vim81 didn’t support 3.7)<br>
+Python 2 (backup in case Python 3.6 doesn’t work)<br>
+Install Vundle for vim. Important for creating .vim directory in Step 3<br>
+In your %USERPROFILE%\.vim\bundle directory, clone the YouCompleteMe github project by running in the Windows cmd:<br>
+cd %USERPROFILE%\.vim\bundle directory<br>
+git clone https://github.com/Valloric/YouCompleteMe.git<br>
+cd YouCompleteMe<br>
+git pull master<br>
+git submodule update --init --recursive<br>
+Add the following to your C:\Users\<Username>\.vimrc file (replace <Username> with whatever your Windows username is)<br>
+set encoding=utf-8<br>
+Plugin 'Valloric/YouCompleteMe'<br>
+Run the following<br>
+cd %USERPROFILE%/vimfiles/bundle/YouCompleteMe<br>
+python install.py<br>
+In vim, run the following commands:<br>
+:PluginInstall<br>
+:PluginUpdate<br>
+ 
 
 
 

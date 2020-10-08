@@ -88,7 +88,7 @@ ggVG"*yy: Copy all<br>
 
 ## YouCompleteMe // AutoCompletion
 Windows<br>
-- Vundle : Plugin 'valloric/youcompleteme'
+- Vundle : Plugin 'valloric/youcompleteme'<br>
 Quick start, installing all completers<br>
 - Install YCM plugin via Vundle<br>
 - Install Visual Studio Build Tools 2017<br>

@@ -85,7 +85,8 @@ Ctrl-i: jump to your previous navigation location // Buffer<br>
 Ctrl-o: jump back to where you were // Buffer<br>
 ggVG: Mark all<br>
 ggVG"*yy: Copy all<br>
-"*yy: Copy to clipboard system
+"*yy: Copy to clipboard system<br>
+FOLDING: zf: create fold // za: close fold // zo: close fold<br>
 
 
 ## YouCompleteMe // AutoCompletion

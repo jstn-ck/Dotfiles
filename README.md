@@ -87,6 +87,7 @@ ggVG: Mark all<br>
 ggVG"*yy: Copy all<br>
 "*yy: Copy to clipboard system<br>
 FOLDING: zf: create fold // za: close fold // zo: close fold<br>
+EASY SURROUND: cs'": for:(") cs<<Q> for: (<Q>) that matches < under cursor
 
 
 ## YouCompleteMe // AutoCompletion

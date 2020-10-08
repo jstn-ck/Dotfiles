@@ -86,4 +86,18 @@ ggVG"*yy: Copy all<br>
 "*yy: Copy to clipboard system
 
 
+##YouCompleteMe // AutoCompletion
+Windows<br>
+Quick start, installing all completers<br>
+- Install YCM plugin via Vundle<br>
+- Install Visual Studio Build Tools 2017<br>
+- Install cmake, vim and python<br>
+- Install go, node and npm<br>
+- Compile YCM<br>
+- cd YouCompleteMe<br>
+- python3 install.py --all<br>
+- Add set encoding=utf-8 to your vimrc<br>
+For plugging an arbitrary LSP server, check the relevant section<br>
+
+
 

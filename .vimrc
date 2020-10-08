@@ -33,12 +33,13 @@ Plugin 'editorconfig/editorconfig-vim'
 Plugin 'tpope/vim-liquid'
 Plugin 'tpope/vim-fugitive'
 Plugin 'tpope/vim-git'
+Plugin 'morhetz/gruvbox'
 Plugin 'mattn/emmet-vim'
+Plugin 'bling/vim-airline'
+Plugin 'tpope/vim-surround'
 Plugin 'airblade/vim-gitgutter'
 Plugin 'honza/vim-snippets'
-Plugin 'morhetz/gruvbox'
-Plugin 'yggdroot/indentline'
-
+Plugin 'NLKNguyen/papercolor-theme'
 " {{{ NERDTree
 "     ========
 
@@ -48,7 +49,6 @@ Plugin 'scrooloose/nerdtree'
 nmap <C-m> :NERDTreeToggle<CR>
 
 " </PLUGINS>
-
 " {{{ VUNDLE TEARDOWN
 
 call vundle#end()
@@ -67,7 +67,9 @@ set hidden
 set mouse=a
 
 "colorscheme
-color Monokai
+set t_Co=256
+set background=dark
+colorscheme gruvbox
 " Search
 set ignorecase smartcase
 set grepprg=grep\ -IrsnH
@@ -125,35 +127,9 @@ syntax enable
 
 " }}}
 
-" MyStatusLine() {{{
-
-function! MyStatusLine()
-    let statusline = ""
-    " Filename (F -> full, f -> relative)
-    let statusline .= "%f"
-    " Buffer flags
-    let statusline .= "%( %h%1*%m%*%r%w%) "
-    " File format and type
-    let statusline .= "(%{&ff}%(\/%Y%))"
-    " Left/right separator
-    let statusline .= "%="
-    " Line & column
-    let statusline .= "(%l,%c%V) "
-    " Character under cursor (decimal)
-    let statusline .= "%03.3b "
-    " Character under cursor (hexadecimal)
-    let statusline .= "0x%02.2B "
-    " File progress
-    let statusline .= "| %P/%L"
-    return statusline
-endfunction
-" Status line
-set statusline=%!MyStatusLine()
-" }}}
-
 " ---------- KEY MAPPING --------
 " Easy saving
-inoremap <C-u> <ESC>:w<CR>
+inoremap <C-s> <ESC>:w<CR>
 
 
 " Create a new HTML document.

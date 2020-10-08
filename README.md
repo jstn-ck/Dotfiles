@@ -86,7 +86,7 @@ ggVG"*yy: Copy all<br>
 "*yy: Copy to clipboard system
 
 
-##YouCompleteMe // AutoCompletion
+## YouCompleteMe // AutoCompletion
 Windows<br>
 Quick start, installing all completers<br>
 - Install YCM plugin via Vundle<br>

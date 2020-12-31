@@ -1,3 +1,5 @@
+
+  
 " ------------ jkanwischers vimrc --------------
 
 " {{{ Plugins and Settings
@@ -6,11 +8,7 @@
 " https://github.com/gmarik/Vundle.vim
 
 " {{{ VUNDLE SETUP
-set number
-set nocompatible
-set directory^=$HOME/.vim/tmp//
-set virtualedit=onemore
-imap <C-Return> <CR><CR><C-o>k<Tab>
+imap <S-Return> <CR><CR><C-o>k<Tab>
 noremap $ $l
 filetype off
 set rtp+=$HOME/.vim/bundle/Vundle.vim
@@ -29,6 +27,7 @@ Plugin 'mtscout6/vim-cjsx'
 Plugin 'digitaltoad/vim-jade'
 " -----
 Plugin 'editorconfig/editorconfig-vim'
+Plugin 'etdev/vim-hexcolor.git'
 
 Plugin 'tpope/vim-liquid'
 Plugin 'tpope/vim-fugitive'
@@ -55,6 +54,10 @@ call vundle#end()
 filetype plugin indent on
 
 " {{{ Basic Settings
+set number
+set nocompatible
+set virtualedit=onemore
+
 let NERDTreeWinSize=20
 " Modelines
 set modelines=2

@@ -1,7 +1,7 @@
 # Dotfiles
 My Dotfiles for NVim etc.
 
-Mac: ```brew install neovim```
+# Mac: ```brew install neovim```
 
 
 

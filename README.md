@@ -1,11 +1,8 @@
 # Dotfiles
 My Dotfiles for NVim etc.
 
+- brew install neovim
 
-vim ~/.vimrc<br>
-mkdir ~/.vim/colors<br>
-mkdir ~/.vim/tmp --- thats for swp files<br><br>
-touch ~/.vim/.skeleton.html<br>
 
 ## Vim
 

@@ -10,7 +10,7 @@ My Dotfiles for NVim etc.
   - Ohmyzsh: ~/.oh-my-zsh
   - nvim path: ~/nvim
 
-# Mac:
+#  Install Mac:
 - Use macinstall.sh
   - Dependencies<br>
       : VimPlug, nvim, curl, wget, git, zsh, homebrew,

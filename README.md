@@ -1,5 +1,5 @@
 # Dotfiles
-My Dotfiles for NVim etc.
+My Dotfiles for [Neovim](https://neovim.io/) etc.
 
 ## Mac Directory structure
 - Main Path: /Users/justin

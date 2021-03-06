@@ -13,7 +13,7 @@ My Dotfiles for [Neovim](https://neovim.io/) etc.
 #  Install Mac:
 - Use macinstall.sh
   - Dependencies<br>
-      : VimPlug, nvim, curl, wget, git, zsh, homebrew,
+      : [VimPlug](https://github.com/junegunn/vim-plug), nvim, curl, wget, git, zsh, homebrew,
       
 ## Zsh 
  - [Oh-My-Zsh](https://github.com/ohmyzsh/ohmyzsh)

@@ -5,7 +5,7 @@ My Dotfiles for NVim etc.
   - Vim/NVim configuration: ~/.vimrc
   - Zsh: ~/.zshrc
 
-# Mac: ```brew install neovim```
+# Mac:
 - Use macinstall.sh
   - Dependencies<br>
       : VimPlug, nvim, curl, wget,

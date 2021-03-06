@@ -2,8 +2,9 @@
 My Dotfiles for NVim etc.
 
 # Mac: ```brew install neovim```
-
-
+- Use macinstall.sh
+  - Dependencies<br>
+      : VimPlug, nvim, curl, wget,
 
 ## Vim
 

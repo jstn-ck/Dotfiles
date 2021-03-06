@@ -8,6 +8,7 @@ My Dotfiles for NVim etc.
   - Vim/NVim configuration: ~/.vimrc
   - Zsh: ~/.zshrc
   - Ohmyzsh: ~/.oh-my-zsh
+  - nvim path: ~/nvim
 
 # Mac:
 - Use macinstall.sh

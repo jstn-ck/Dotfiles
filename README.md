@@ -8,7 +8,7 @@ My Dotfiles for NVim etc.
 # Mac:
 - Use macinstall.sh
   - Dependencies<br>
-      : VimPlug, nvim, curl, wget,
+      : VimPlug, nvim, curl, wget, git,
       
 ## Zsh 
  - [Oh-My-Zsh](https://github.com/ohmyzsh/ohmyzsh)

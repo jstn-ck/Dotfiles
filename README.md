@@ -7,6 +7,7 @@ My Dotfiles for NVim etc.
   - Work projects path: /Users/justin/Documents/work/f7justin/projects
   - Vim/NVim configuration: ~/.vimrc
   - Zsh: ~/.zshrc
+  - Ohmyzsh: ~/.oh-my-zsh
 
 # Mac:
 - Use macinstall.sh

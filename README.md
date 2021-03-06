@@ -14,7 +14,7 @@ My Dotfiles for NVim etc.
  - [Oh-My-Zsh](https://github.com/ohmyzsh/ohmyzsh)
  - theme: avit
 
-## NVim
+## Vim usage
 
 j: move down one line<br>
 k: move up one line<br>

@@ -1,11 +1,20 @@
 # Dotfiles
 My Dotfiles for NVim etc.
 
-# Mac: ```brew install neovim```
+## Directory structure
+  - Vim/NVim configuration: ~/.vimrc
+  - Zsh: ~/.zshrc
 
+# Mac:
+- Use macinstall.sh
+  - Dependencies<br>
+      : VimPlug, nvim, curl, wget, git, zsh, homebrew,
+      
+## Zsh 
+ - [Oh-My-Zsh](https://github.com/ohmyzsh/ohmyzsh)
+ - theme: avit
 
-
-## Vim
+## Vim usage
 
 j: move down one line<br>
 k: move up one line<br>

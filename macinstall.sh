@@ -31,3 +31,6 @@ nvim +PlugInstall +qall
 mkdir ~/.nvim
 touch ~/.vimrc
  
+# Move files
+mv .zshrc ~/
+mv .vimrc ~/

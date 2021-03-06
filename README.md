@@ -1,7 +1,7 @@
 # Dotfiles
 My Dotfiles for NVim etc.
 
-## Directory structure
+## Mac Directory structure
 - Main Path: /Users/justin
   - Projects path: /Users/justin/Documents/work/Projekte
   - Work projects path: /Users/justin/Documents/work/f7justin/projects

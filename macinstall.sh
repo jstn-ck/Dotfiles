@@ -18,19 +18,9 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/too
 echo "Zsh to default shell"
 chsh -s $(which zsh)
 stow zsh
-touch ~/.zshrc
 # Vim plug / Plugin manager
 curl -fLo ~/.config/nvim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 
 stow nvim
 
 nvim +PlugInstall +qall
-
-
-# Make directories
-mkdir ~/.nvim
-touch ~/.vimrc
- 
-# Move files
-mv .zshrc ~/
-mv .vimrc ~/

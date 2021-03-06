@@ -11,7 +11,7 @@ My Dotfiles for NVim etc.
       : VimPlug, nvim, curl, wget,
       
 ## Zsh 
- - oh my zsh
+ - [Oh-My-Zsh](https://github.com/ohmyzsh/ohmyzsh)
  - theme: avit
 
 ## NVim

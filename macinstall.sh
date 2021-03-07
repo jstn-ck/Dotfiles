@@ -12,6 +12,7 @@ echo "Installing Dependencies.."
 brew update
 brew install node stow wget curl python cmake zsh zsh-syntax-highlighting fzf neovim
 brew upgrade
+npm install -g npm
 
 # NVim python support
 python3 -m pip install --user --upgrade pynvim

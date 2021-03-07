@@ -11,6 +11,9 @@ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/
 echo "Installing Dependencies.."
 brew install stow wget curl python cmake zsh zsh-syntax-highlighting fzf neovim
 
+# NVim python support
+python3 -m pip install --user --upgrade pynvim
+
 #install ohmyzsh
 echo "Installing OhMyZsh.."
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"

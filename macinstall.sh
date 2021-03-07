@@ -17,6 +17,7 @@ curl -L https://get.rvm.io | bash -s stable
 rvm install ruby-2.7.2
 curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
 python3 get-pip.py
+python2.7 -m ensurepip --default-pip
 brew upgrade
 mkdir ~/.npm-global
 npm config set prefix '~/.npm-global'

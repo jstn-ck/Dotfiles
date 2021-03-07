@@ -9,7 +9,7 @@ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/
 
 #  dependencies
 echo "Installing Dependencies.."
-brew install stow wget curl cmake zsh zsh-syntax-highlighting fzf neovim
+brew install stow wget curl python cmake zsh zsh-syntax-highlighting fzf neovim
 
 #install ohmyzsh
 echo "Installing OhMyZsh.."

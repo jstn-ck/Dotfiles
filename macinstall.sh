@@ -9,10 +9,15 @@ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/
 
 #  dependencies
 echo "Installing Dependencies.."
-brew update
-brew install node stow wget curl python cmake zsh zsh-syntax-highlighting fzf neovim rbenv ruby-build
-brew upgrade
+sudo brew update
+sudo brew install node stow wget curl python cmake zsh zsh-syntax-highlighting fzf neovim rbenv ruby-build
+sudo brew upgrade
 npm install -g npm
+mkdir ~/.npm-global
+npm config set prefix '~/.npm-global'
+export PATH=~/.npm-global/bin:$PATH
+source ~/.profile
+
 
 # NVim python support
 python3 -m pip install --user --upgrade pynvim

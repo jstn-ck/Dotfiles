@@ -14,7 +14,7 @@ Theme: Gruvbox
 
 #  Install Mac:
 ## Homebrew: `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
-!!Requirements: Ruby (brew install ruby)
+!!Requirements: Homebrew, Ruby (brew install ruby)
   
 - Use macinstall.sh
   - Dependencies<br>

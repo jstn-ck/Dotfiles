@@ -1,6 +1,8 @@
 # Dotfiles
 My Dotfiles for [Neovim](https://neovim.io/) etc.
 
+Theme: Gruvbox
+
 ## Mac Directory structure
 - Main Path: /Users/justin
   - Projects path: /Users/justin/Documents/work/Projekte

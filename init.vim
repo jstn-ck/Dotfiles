@@ -149,7 +149,7 @@ imap <silent><expr><tab> TabWrap()
 inoremap <expr> <S-Tab> pumvisible() ? "\<C-p>" : "\<S-Tab>"
 """ /deoplete
 
-map <C-n> :NERDTreeToggle<CR>
+map <M-n> :NERDTreeToggle<CR>
 
 
 """Ende

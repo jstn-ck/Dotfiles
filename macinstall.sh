@@ -48,7 +48,7 @@ cp init.vim ~/.config/nvim/
 cp .zshrc ~/.zshrc
 
 #Deoplete support
-sudo gem install neovim
+sudo gem install neovim -n /usr/local/bin
 npm install -g neovim
 
 # Vim plug / Plugin manager

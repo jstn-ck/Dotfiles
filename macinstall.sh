@@ -10,7 +10,7 @@ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/
 #  dependencies
 echo "Installing Dependencies.."
 brew update
-brew install node stow wget curl python cmake zsh zsh-syntax-highlighting fzf neovim
+brew install node stow wget curl python cmake zsh zsh-syntax-highlighting fzf neovim rbenv ruby-build
 brew upgrade
 npm install -g npm
 

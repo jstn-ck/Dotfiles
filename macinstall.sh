@@ -9,12 +9,13 @@ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/
 
 #  dependencies
 echo "Installing Dependencies.."
-sudo brew update
-sudo brew install node stow wget curl python cmake zsh zsh-syntax-highlighting fzf neovim rbenv ruby-build
-sudo brew upgrade
+brew update
+brew install node stow wget curl python cmake zsh zsh-syntax-highlighting fzf neovim rbenv ruby-build
+brew upgrade
 mkdir ~/.npm-global
 npm config set prefix '~/.npm-global'
-export PATH=~/.npm-global/bin:$PATH
+touch ~/.profile
+echo "export PATH=~/.npm-global/bin:$PATH" >> ~/.profile
 source ~/.profile
 npm install -g npm
 

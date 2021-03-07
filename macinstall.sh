@@ -1,7 +1,8 @@
 # Justin Kanwischer Mac OS install script
 
 # xcode for brew
-xcode-select --install
+sudo rm -rf /Library/Developer/CommandLineTools
+sudo xcode-select --install
 softwareupdate --all --install --force
 
 # Install brew package manager

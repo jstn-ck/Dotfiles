@@ -20,6 +20,9 @@ chsh -s $(which zsh)
 
 # Make dirs
 mkdir ~/nvim
+#Move Files from dotfiles
+mv .vimrc ~/.vimrc
+mv .zshrc ~/.zshrc
 
 # Vim plug / Plugin manager
 curl -fLo ~/nvim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim

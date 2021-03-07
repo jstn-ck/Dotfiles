@@ -1,14 +1,19 @@
 # Dotfiles
-My Dotfiles for NVim etc.
+My Dotfiles for [Neovim](https://neovim.io/) etc.
 
-## Directory structure
+## Mac Directory structure
+- Main Path: /Users/justin
+  - Projects path: /Users/justin/Documents/work/Projekte
+  - Work projects path: /Users/justin/Documents/work/f7justin/projects
   - Vim/NVim configuration: ~/.vimrc
   - Zsh: ~/.zshrc
+  - Ohmyzsh: ~/.oh-my-zsh
+  - nvim path: ~/nvim
 
-# Mac:
+#  Install Mac:
 - Use macinstall.sh
   - Dependencies<br>
-      : VimPlug, nvim, curl, wget, git, zsh, homebrew,
+      : [VimPlug](https://github.com/junegunn/vim-plug), nvim, curl, wget, git, zsh, homebrew,
       
 ## Zsh 
  - [Oh-My-Zsh](https://github.com/ohmyzsh/ohmyzsh)

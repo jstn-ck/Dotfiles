@@ -13,6 +13,7 @@ Theme: Gruvbox
   - nvim path: ~/.config/nvim/
 
 #  Install Mac:
+## Homebrew
 !!Requirements: Ruby (brew install ruby)
   
 - Use macinstall.sh

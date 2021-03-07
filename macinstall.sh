@@ -19,9 +19,9 @@ echo "Zsh to default shell"
 chsh -s $(which zsh)
 
 # Make dirs
-mkdir ~/nvim
+mkdir ~/.config/nvim
 #Move Files from dotfiles
-cp .vimrc ~/.vimrc
+cp init.vim ~/.config/nvim/
 cp .zshrc ~/.zshrc
 
 # Vim plug / Plugin manager

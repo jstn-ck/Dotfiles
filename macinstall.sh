@@ -1,7 +1,7 @@
 # Justin Kanwischer Mac OS install script
 
 # xcode for brew
-sudo rm -rf /Library/Developer/CommandLineTools
+#sudo rm -rf /Library/Developer/CommandLineTools
 sudo xcode-select --install
 softwareupdate --all --install --force
 

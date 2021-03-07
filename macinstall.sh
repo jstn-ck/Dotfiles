@@ -16,7 +16,7 @@ brew upgrade
 # NVim python support
 python3 -m pip install --user --upgrade pynvim
 
-#install ohmyzsh
+# install ohmyzsh
 echo "Installing OhMyZsh.."
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
@@ -25,9 +25,14 @@ chsh -s $(which zsh)
 
 # Make dirs
 mkdir ~/.config/nvim
+
 #Move Files from dotfiles
 cp init.vim ~/.config/nvim/
 cp .zshrc ~/.zshrc
+
+#Deoplete support
+gem install neovim
+npm install -g neovim
 
 # Vim plug / Plugin manager
 curl -fLo ~/.config/nvim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim

@@ -5,10 +5,10 @@ My Dotfiles for [Neovim](https://neovim.io/) etc.
 - Main Path: /Users/justin
   - Projects path: /Users/justin/Documents/work/Projekte
   - Work projects path: /Users/justin/Documents/work/f7justin/projects
-  - Vim/NVim configuration: ~/.vimrc
+  - Vim/NVim configuration: ~/.config/nvim/init.vim
   - Zsh: ~/.zshrc
   - Ohmyzsh: ~/.oh-my-zsh
-  - nvim path: ~/nvim
+  - nvim path: ~/.config/nvim/
 
 #  Install Mac:
 - Use macinstall.sh

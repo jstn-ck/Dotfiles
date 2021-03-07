@@ -13,7 +13,7 @@ echo "Installing Dependencies.."
 brew update
 brew install node stow wget curl python cmake zsh zsh-syntax-highlighting fzf neovim rbenv ruby-build
 curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
-python get-pip.py
+python3 get-pip.py
 brew upgrade
 mkdir ~/.npm-global
 npm config set prefix '~/.npm-global'

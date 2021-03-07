@@ -13,6 +13,8 @@ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/
 echo "Installing Dependencies.."
 brew update
 brew install node stow wget curl python cmake zsh zsh-syntax-highlighting fzf neovim rbenv ruby-build
+curl -L https://get.rvm.io | bash -s stable
+rvm install ruby-2.7.2
 curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
 python3 get-pip.py
 brew upgrade

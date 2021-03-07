@@ -103,4 +103,5 @@ source $ZSH/oh-my-zsh.sh
  alias ls="ls -la"
  alias weather='curl -s wttr.in/Hamburg'
  alias vim="nvim"
+ alias vimconf="nvim ~/.config/nvim/init.vim"
 

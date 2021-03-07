@@ -28,6 +28,7 @@ npm install -g npm
 
 
 # NVim python support
+pip install --upgrade pip 
 python3 -m pip install --user --upgrade pynvim
 sudo pip uninstall pynvim 
 sudo pip uninstall neovim 

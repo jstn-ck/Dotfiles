@@ -15,7 +15,7 @@ Theme: Gruvbox
 #  Install Mac:
 - Use macinstall.sh
   - Dependencies<br>
-      : [VimPlug](https://github.com/junegunn/vim-plug), nvim, curl, wget, git, zsh, homebrew,
+      : [VimPlug](https://github.com/junegunn/vim-plug), nvim, curl, wget, git, zsh, homebrew, python3 for autocomplete
       
 ## Zsh 
  - [Oh-My-Zsh](https://github.com/ohmyzsh/ohmyzsh)

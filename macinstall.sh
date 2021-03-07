@@ -9,7 +9,9 @@ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/
 
 #  dependencies
 echo "Installing Dependencies.."
-brew install stow wget curl python cmake zsh zsh-syntax-highlighting fzf neovim
+brew update
+brew install node stow wget curl python cmake zsh zsh-syntax-highlighting fzf neovim
+brew upgrade
 
 # NVim python support
 python3 -m pip install --user --upgrade pynvim

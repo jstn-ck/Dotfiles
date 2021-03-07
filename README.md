@@ -13,7 +13,7 @@ Theme: Gruvbox
   - nvim path: ~/.config/nvim/
 
 #  Install Mac:
-## Homebrew
+## Homebrew: `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
 !!Requirements: Ruby (brew install ruby)
   
 - Use macinstall.sh

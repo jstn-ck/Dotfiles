@@ -14,7 +14,8 @@ Theme: Gruvbox
 
 #  Install Mac:
 !!Requirements
-  - Ruby (```brew install ruby ````
+  - Ruby (brew install ruby)
+  
 - Use macinstall.sh
   - Dependencies<br>
       : [VimPlug](https://github.com/junegunn/vim-plug), nvim, curl, wget, git, zsh, homebrew, python3 for autocomplete

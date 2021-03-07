@@ -35,6 +35,7 @@ sudo pip uninstall neovim
 sudo pip3 uninstall neovim
 sudo pip install pynvim
 sudo pip3 install pynvim
+python2 -m pip install --user --upgrade pynvim
 
 # install ohmyzsh
 echo "Installing OhMyZsh.."

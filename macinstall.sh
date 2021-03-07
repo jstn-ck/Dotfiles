@@ -16,6 +16,10 @@ npm install -g npm
 
 # NVim python support
 python3 -m pip install --user --upgrade pynvim
+sudo pip uninstall neovim 
+sudo pip3 uninstall neovim
+pip install --user neovim
+pip3 install neovim
 
 # install ohmyzsh
 echo "Installing OhMyZsh.."

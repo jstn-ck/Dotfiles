@@ -4,6 +4,7 @@
 call plug#begin(expand('~/.config/nvim/plug'))
 
 Plug 'pangloss/vim-javascript'
+Plug 'honza/vim-snippets'
 Plug 'maxmellon/vim-jsx-pretty'
 Plug 'othree/html5.vim'
 Plug 'hail2u/vim-css3-syntax'
@@ -19,7 +20,8 @@ Plug 'scrooloose/syntastic'
 Plug 'jiangmiao/auto-pairs'
 Plug 'ctrlpvim/ctrlp.vim'
 Plug 'editorconfig/editorconfig-vim'
-Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
+Plug 'Shougo/neosnippet'
+Plug 'Shougo/neosnippet-snippets'
 
 call plug#end()
 
@@ -121,35 +123,7 @@ let g:syntastic_warning_symbol = '⚠'
 let g:syntastic_style_warning_symbol = '‽'
 """ /syntastic
 
-""" deoplete
-" auto completion stuff
-set ofu=syntaxcomplete#Complete
-set complete+=k         " enable dictionary completion
-set completeopt=menuone,menu,longest,preview
-
-let g:deoplete#enable_at_startup = 1
-let g:deoplete#disable_auto_complete = 1
-
-
-"use <tab> for completion
-function! TabWrap()
-    if pumvisible()
-        return "\<C-N>"
-    elseif strpart( getline('.'), 0, col('.') - 1 ) =~ '^\s*$'
-        return "\<tab>"
-    elseif &omnifunc !~ ''
-        return "\<C-X>\<C-O>"
-    else
-        return "\<C-N>"
-    endif
-endfunction
-
-" power tab
-imap <silent><expr><tab> TabWrap()
-inoremap <expr> <S-Tab> pumvisible() ? "\<C-p>" : "\<S-Tab>"
-""" /deoplete
-
 map <C-m> :NERDTreeToggle<CR>
 
 
-"""Ende
+"Ende

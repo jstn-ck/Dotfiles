@@ -12,16 +12,6 @@ Plug 'bling/vim-airline'
 Plug 'morhetz/gruvbox'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'airblade/vim-gitgutter'
-Plug 'Valloric/MatchTagAlways'
-Plug 'scrooloose/nerdtree'
-Plug 'tpope/vim-surround'
-Plug 'terryma/vim-multiple-cursors'
-Plug 'scrooloose/syntastic'
-Plug 'jiangmiao/auto-pairs'
-Plug 'ctrlpvim/ctrlp.vim'
-Plug 'editorconfig/editorconfig-vim'
-Plug 'Shougo/neosnippet'
-Plug 'Shougo/neosnippet-snippets'
 " Track the engine.
 Plug 'SirVer/ultisnips'
 
@@ -37,6 +27,16 @@ let g:UltiSnipsJumpBackwardTrigger="<c-z>"
 
 " If you want :UltiSnipsEdit to split your window.
 let g:UltiSnipsEditSplit="vertical"
+Plug 'Valloric/MatchTagAlways'
+Plug 'scrooloose/nerdtree'
+Plug 'tpope/vim-surround'
+Plug 'terryma/vim-multiple-cursors'
+Plug 'scrooloose/syntastic'
+Plug 'jiangmiao/auto-pairs'
+Plug 'ctrlpvim/ctrlp.vim'
+Plug 'editorconfig/editorconfig-vim'
+Plug 'Shougo/neosnippet'
+Plug 'Shougo/neosnippet-snippets'
 
 call plug#end()
 
@@ -94,6 +94,8 @@ set list
 set wildmenu
 set wildmode=list:full
 
+" <3 Finding files
+set path+=**
 " searching
 set hlsearch            " highlight all search results
 set incsearch           " increment search
@@ -141,4 +143,4 @@ let g:syntastic_style_warning_symbol = '‽'
 map <C-m> :NERDTreeToggle<CR>
 
 
-"Ende
+" Ende

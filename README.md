@@ -2,6 +2,7 @@
 My Dotfiles for [Neovim](https://neovim.io/) etc.
 
 Theme: Gruvbox
+Terminal: [Kitty](https://sw.kovidgoyal.net/kitty)
 
 ## Mac Directory structure
 - Main Path: /Users/justin
@@ -11,6 +12,7 @@ Theme: Gruvbox
   - Zsh: ~/.zshrc
   - Ohmyzsh: ~/.oh-my-zsh
   - nvim path: ~/.config/nvim/
+  - kitty config: ~/.config/kitty/kitty.conf
 
 #  Install Mac:
 ## Homebrew: `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`

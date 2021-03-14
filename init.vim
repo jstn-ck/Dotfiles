@@ -12,26 +12,16 @@ Plug 'bling/vim-airline'
 Plug 'morhetz/gruvbox'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'airblade/vim-gitgutter'
-" Track the engine.
 Plug 'SirVer/ultisnips'
-
-" Snippets are separated from the engine. Add this if you want them:
 Plug 'honza/vim-snippets'
-
-" Trigger configuration. You need to change this to something other than <tab> if you use one of the following:
-" - https://github.com/Valloric/YouCompleteMe
-" - https://github.com/nvim-lua/completion-nvim
 let g:UltiSnipsExpandTrigger="<tab>"
 let g:UltiSnipsJumpForwardTrigger="<c-b>"
 let g:UltiSnipsJumpBackwardTrigger="<c-z>"
-
-" If you want :UltiSnipsEdit to split your window.
 let g:UltiSnipsEditSplit="vertical"
 Plug 'Valloric/MatchTagAlways'
 Plug 'scrooloose/nerdtree'
 Plug 'tpope/vim-surround'
 Plug 'terryma/vim-multiple-cursors'
-Plug 'scrooloose/syntastic'
 Plug 'jiangmiao/auto-pairs'
 Plug 'ctrlpvim/ctrlp.vim'
 Plug 'editorconfig/editorconfig-vim'
@@ -56,6 +46,7 @@ set shortmess+=I        " disable the welcome screen
 set clipboard+=unnamed  " yank and copy to X clipboard
 set backspace=2         " full backspacing capabilities
 set history=100         " 100 lines of command line history
+set lazyredraw
 set ruler               " ruler display in status line
 set hidden              " enable buffer switching without saving
 set showmode            " show mode at bottom of screen
@@ -122,25 +113,7 @@ let g:airline#extensions#tabline#enabled = 1
 let g:airline#extensions#tabline#left_alt_sep = ''
 """ /vim-airline
 
-""" syntastic
-" set statusline+=%#warningmsg#
-" set statusline+=%{SyntasticStatuslineFlag()}
-"  set statusline+=%*
-
-let g:syntastic_always_populate_loc_list = 1
-let g:syntastic_auto_loc_list = 0
-let g:syntastic_check_on_open = 0
-let g:syntastic_check_on_wq = 0
-
-autocmd FileType c let g:syntastic_auto_loc_list = 0
-"" eye candy
-let g:syntastic_error_symbol = '✘'
-let g:syntastic_style_error_symbol = '!'
-let g:syntastic_warning_symbol = '⚠'
-let g:syntastic_style_warning_symbol = '‽'
-""" /syntastic
-
 map <C-m> :NERDTreeToggle<CR>
 
 
-" Ende
+"""Ende

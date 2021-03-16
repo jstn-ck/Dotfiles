@@ -6,12 +6,16 @@ https://github.com/neovim/neovim/releases/
 
 - git bash: https://gitforwindows.org/
 
+Requirements:
+- "xcopy" command in $PATH (Windows)
+- git ofc
+
 ## Windows directorys
  - C:/Users/Justin Kanwischer/AppData/Local/nvim
  - neovim config: init.vim
 
- Plugin Manager: dein.vim<br>
- Theme: 
+ Plugin Manager: [dein.vim](https://github.com/Shougo/dein.vim)<br>
+ Theme: solarized
 ## Vim usage
 
 j: move down one line<br>

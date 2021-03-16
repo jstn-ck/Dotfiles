@@ -4,6 +4,14 @@ My Dotfiles for [Neovim](https://neovim.io/)<br>
 # Install Windows
 https://github.com/neovim/neovim/releases/
 
+- git bash: https://gitforwindows.org/
+
+## Windows directorys
+ - C:/Users/Justin Kanwischer/AppData/Local/nvim
+ - neovim config: init.vim
+
+ Plugin Manager: dein.vim<br>
+ Theme: 
 ## Vim usage
 
 j: move down one line<br>

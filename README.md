@@ -1,30 +1,8 @@
 # Dotfiles
-My Dotfiles for [Neovim](https://neovim.io/) etc.
+My Dotfiles for [Neovim](https://neovim.io/)<br>
 
-Theme: Gruvbox<br>
-Terminal: [Kitty](https://sw.kovidgoyal.net/kitty)
-
-## Mac Directory structure
-- Main Path: /Users/justin
-  - Projects path: /Users/justin/Documents/work/Projekte
-  - Work projects path: /Users/justin/Documents/work/f7justin/projects
-  - Vim/NVim configuration: ~/.config/nvim/init.vim
-  - Zsh: ~/.zshrc
-  - Ohmyzsh: ~/.oh-my-zsh
-  - nvim path: ~/.config/nvim/
-  - kitty config: ~/.config/kitty/kitty.conf
-
-#  Install Mac:
-## Homebrew: `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
-!!Requirements: Homebrew, Ruby (brew install ruby)
-  
-- Use macinstall.sh
-  - Dependencies<br>
-      : [VimPlug](https://github.com/junegunn/vim-plug), nvim, curl, wget, git, zsh, homebrew, python3 for autocomplete, npm(node)
-      
-## Zsh 
- - [Oh-My-Zsh](https://github.com/ohmyzsh/ohmyzsh)
- - theme: avit
+# Install Windows
+https://github.com/neovim/neovim/releases/
 
 ## Vim usage
 

@@ -4,27 +4,34 @@ if &compatible
 endif
 
 " Required:
-set runtimepath+=C:\Users\Justin Kanwischer\.cache\dein\repos\github.com\Shougo\dein.vim
+set runtimepath+=~\.cache\dein\repos\github.com\Shougo\dein.vim
 
 " Required:
-call dein#begin('C:\Users\Justin Kanwischer\.cache\dein')
-
+call dein#begin('~\.cache\dein')
 " Let dein manage dein
 " Required:
-call dein#add('C:\Users\Justin Kanwischer\.cache\dein\repos\github.com\Shougo\dein.vim')
+call dein#add('~\.cache\dein\repos\github.com\Shougo\dein.vim')
+let s:dein_dir = '~\.cache\dein'
+if dein#load_state(s:dein_dir)
+  call dein#begin(s:dein_dir)
 
-" Add or remove your plugins here like this:
-"call dein#add('Shougo/neosnippet.vim')
-"call dein#add('Shougo/neosnippet-snippets')
+  let g:rc_dir = expand('~/AppData/Local/nvim/rc')
+  let s:toml = g:rc_dir . '/dein.toml'
+  let s:lazy_toml = g:rc_dir . '/dein_lazy.toml'
+  call dein#load_toml(s:toml,      {'lazy': 0})
+  call dein#load_toml(s:lazy_toml, {'lazy': 1})
 
-" Required:
-call dein#end()
+  call dein#end()
+  call dein#save_state()
+endif
+if dein#check_install()
+  call dein#install()
+endif" Required:
 
 " Required:
 filetype plugin indent on
 syntax enable
 
-" If you want to install not installed plugins on startup.
 "if dein#check_install()
 "  call dein#install()
 "endif

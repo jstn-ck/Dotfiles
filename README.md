@@ -1,7 +1,7 @@
 # Dotfiles
 My Dotfiles for [Neovim](https://neovim.io/) etc.
 
-Theme: Gruvbox<br>
+Theme: Solarized<br>
 Terminal: [Kitty](https://sw.kovidgoyal.net/kitty)
 
 ## Mac Directory structure

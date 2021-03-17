@@ -51,7 +51,7 @@ mkdir ~/.config/nvim/rc
 mkdir ~/.config/nvim/plugins
 
 #Move Files from dotfiles
-cp init.vim ~/.config/nvim/
+cp /nvim/init.vim ~/.config/nvim/
 cp .zshrc ~/.zshrc
 
 #Install vim plugin manager

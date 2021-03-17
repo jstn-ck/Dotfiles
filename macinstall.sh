@@ -46,6 +46,7 @@ chsh -s $(which zsh)
 
 # Make dirs
 mkdir ~/.config/nvim
+mkdir ~/.cache/dein
 
 #Move Files from dotfiles
 cp init.vim ~/.config/nvim/
@@ -54,5 +55,3 @@ cp .zshrc ~/.zshrc
 #Deoplete support
 sudo gem install neovim -n /usr/local/bin
 npm install -g neovim
-
-nvim +PlugInstall +qall

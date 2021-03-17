@@ -2,7 +2,7 @@
 My Dotfiles for [Neovim](https://neovim.io/) etc.
 
 Theme: Solarized<br>
-Terminal: [Kitty](https://sw.kovidgoyal.net/kitty)
+Terminal: Iterm2
 
 ## Mac Directory structure
 - Main Path: /Users/justin

@@ -55,7 +55,4 @@ cp .zshrc ~/.zshrc
 sudo gem install neovim -n /usr/local/bin
 npm install -g neovim
 
-# Vim plug / Plugin manager
-curl -fLo ~/.config/nvim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
-
 nvim +PlugInstall +qall

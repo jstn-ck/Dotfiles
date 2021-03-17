@@ -1,5 +1,6 @@
 # Dotfiles
-My Dotfiles for [Neovim](https://neovim.io/) etc.
+My Dotfiles for [Neovim](https://neovim.io/) etc. <br>
+Some configs from: https://github.com/craftzdog/dotfiles-public
 
 Theme: Solarized<br>
 Terminal: Iterm2

@@ -28,6 +28,9 @@ Terminal: Iterm2
  - [Oh-My-Zsh](https://github.com/ohmyzsh/ohmyzsh)
  - theme: avit
 
+## Tmux
+brew install tmux
+
 ## Vim usage
 
 j: move down one line<br>

@@ -52,6 +52,11 @@ mkdir ~/.cache/dein
 cp init.vim ~/.config/nvim/
 cp .zshrc ~/.zshrc
 
+#Install vim plugin manager
+curl https://raw.githubusercontent.com/Shougo/dein.vim/master/bin/installer.sh > installer.sh
+# For example, we just use `~/.cache/dein` as installation directory
+sh ./installer.sh ~/.cache/dein
+
 #Deoplete support
 sudo gem install neovim -n /usr/local/bin
 npm install -g neovim

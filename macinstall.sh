@@ -47,6 +47,8 @@ chsh -s $(which zsh)
 # Make dirs
 mkdir ~/.config/nvim
 mkdir ~/.cache/dein
+mkdir ~/.config/nvim/rc
+mkdir ~/.config/nvim/plugins
 
 #Move Files from dotfiles
 cp init.vim ~/.config/nvim/

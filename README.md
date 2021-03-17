@@ -13,6 +13,7 @@ Terminal: [Kitty](https://sw.kovidgoyal.net/kitty)
   - Ohmyzsh: ~/.oh-my-zsh
   - nvim path: ~/.config/nvim/
   - kitty config: ~/.config/kitty/kitty.conf
+  - dein path: ~/.cache/dein
 
 #  Install Mac:
 ## Homebrew: `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`

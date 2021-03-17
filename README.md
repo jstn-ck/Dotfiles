@@ -1,5 +1,6 @@
 # Dotfiles
 My Dotfiles for [Neovim](https://neovim.io/)<br>
+Windows works bad with vim, install Linux instead
 
 # Install Windows
 https://github.com/neovim/neovim/releases/

@@ -4,6 +4,12 @@ set nobackup            " don't keep a backup file
 set backupdir=/tmp      " backup dir
 set directory=/tmp      " swap file director
 set mouse=a
+set ttimeoutlen=5
+set timeoutlen=1000
+if has('persistent_undo')      "check if your vim version supports it
+  set undofile                 "turn on the feature  
+  set undodir=$HOME/.config/nvim/undo  "directory where the undo files will be stored
+  endif     
 
 set termguicolors
 
@@ -79,6 +85,9 @@ autocmd FileType coffee setlocal shiftwidth=2 tabstop=2
 autocmd FileType ruby setlocal shiftwidth=2 tabstop=2
 autocmd FileType yaml setlocal shiftwidth=2 tabstop=2
 
+set guifont=Sauce\ Code\ Pro\ Light\ Nerd\ Font\ Complete\ Windows\ Compatible:h11
+let g:webdevicons_enable_vimfiler = 1
+
 " JavaScript
 au BufNewFile,BufRead *.es6 setf javascript
 " TypeScript
@@ -91,8 +100,12 @@ au BufNewFile,BufRead *.flow set filetype=javascript
 "-------------------------------------------------------------------------------
 " Cursor line
 "-------------------------------------------------------------------------------
-
 set cursorline
+
+highlight Visual cterm=NONE ctermbg=236 ctermfg=NONE guibg=Grey40
+
+highlight LineNr       cterm=none ctermfg=240 guifg=#2b506e guibg=#000000
+
 augroup BgHighlight
   autocmd!
   autocmd WinEnter * set cul

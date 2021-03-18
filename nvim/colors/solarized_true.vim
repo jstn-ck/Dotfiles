@@ -148,6 +148,8 @@ let colors_name = "NeoSolarized"
     let s:gui_magenta     = "#d33682"
     let s:gui_violet      = "#6c71c4"
     let s:gui_blue        = "#268bd2"
+    let s:gui_ownCol      = "#074859"
+    let s:gui_ownCol2     = "#0a6982"
     let s:gui_cyan        = "#2aa198"
     let s:gui_green       = "#719e07" "experimental
     "let s:green       = "#859900" "original
@@ -167,6 +169,8 @@ let colors_name = "NeoSolarized"
     let s:term_magenta     = "5"
     let s:term_violet      = "13"
     let s:term_blue        = "4"
+    let s:term_ownCol      = "8"
+    let s:term_ownCol2     = "8"
     let s:term_cyan        = "6"
     let s:term_green       = "2"
 
@@ -289,8 +293,10 @@ exe "let s:bg_back      = ' "   .   "guibg=".s:gui_back     .   " ctermbg=".s:te
 exe "let s:bg_base03    = ' "   .   "guibg=".s:gui_base03   .   " ctermbg=".s:term_base03    .   "'"
 exe "let s:bg_base02    = ' "   .   "guibg=".s:gui_base02   .   " ctermbg=".s:term_base02    .   "'"
 exe "let s:bg_base01    = ' "   .   "guibg=".s:gui_base01   .   " ctermbg=".s:term_base01    .   "'"
-exe "let s:bg_base00    = ' "   .   "guibg=".s:gui_base00   .   " ctermbg=".s:term_base00    .   "'"
 exe "let s:bg_base0     = ' "   .   "guibg=".s:gui_base0    .   " ctermbg=".s:term_base0     .   "'"
+exe "let s:bg_base00    = ' "   .   "guibg=".s:gui_base00   .   " ctermbg=".s:term_base00    .   "'"
+exe "let s:bg_ownCol    = ' "   .   "guibg=".s:gui_ownCol   .   " ctermbg=".s:term_ownCol    .   "'"
+exe "let s:bg_ownCol2    = ' "   .   "guibg=".s:gui_ownCol2   .   " ctermbg=".s:term_ownCol2    .   "'"
 exe "let s:bg_base1     = ' "   .   "guibg=".s:gui_base1    .   " ctermbg=".s:term_base1     .   "'"
 exe "let s:bg_base2     = ' "   .   "guibg=".s:gui_base2    .   " ctermbg=".s:term_base2     .   "'"
 exe "let s:bg_base3     = ' "   .   "guibg=".s:gui_base3    .   " ctermbg=".s:term_base3     .   "'"
@@ -470,7 +476,7 @@ exe "hi! IncSearch"      .s:fmt_stnd   .s:fg_orange .s:bg_none
 exe "hi! Search"         .s:fmt_revr   .s:fg_yellow .s:bg_none
 exe "hi! MoreMsg"        .s:fmt_none   .s:fg_blue   .s:bg_none
 exe "hi! ModeMsg"        .s:fmt_none   .s:fg_blue   .s:bg_none
-exe "hi! LineNr"         .s:fmt_none   .s:fg_base01 .s:bg_base02
+exe "hi! LineNr"         .s:fmt_none   .s:fg_base01 .s:bg_ownCol
 exe "hi! Question"       .s:fmt_bold   .s:fg_cyan   .s:bg_none
 if (g:neosolarized_vertSplitBgTrans == 1)
     exe "hi! VertSplit"  .s:fmt_none   .s:fg_base00 .s:bg_none
@@ -515,8 +521,8 @@ exe "hi! TabLine"        .s:fmt_none   .s:fg_base0  .s:bg_base02  .s:sp_base0
 exe "hi! TabLineFill"    .s:fmt_none   .s:fg_base0  .s:bg_base02  .s:sp_base0
 exe "hi! TabLineSel"     .s:fmt_none   .s:fg_base01  .s:bg_base2  .s:sp_base0  .s:fmt_revr
 exe "hi! CursorColumn"   .s:fmt_none   .s:fg_none   .s:bg_base02
-exe "hi! CursorLine"     .s:fmt_uopt   .s:fg_none   .s:bg_base02  .s:sp_base1
-exe "hi! CursorLineNr"   .s:fmt_uopt   .s:fg_none   .s:bg_base02  .s:sp_base1
+exe "hi! CursorLine"     .s:fmt_uopt   .s:fg_none   .s:bg_ownCol2  .s:sp_base1
+exe "hi! CursorLineNr"   .s:fmt_uopt   .s:fg_none   .s:bg_ownCol2  .s:sp_base1
 exe "hi! ColorColumn"    .s:fmt_none   .s:fg_none   .s:bg_base02
 exe "hi! Cursor"         .s:fmt_none   .s:fg_base03 .s:bg_base0
 hi! link lCursor Cursor

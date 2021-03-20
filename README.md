@@ -28,6 +28,10 @@ Terminal: Iterm2
  - [Oh-My-Zsh](https://github.com/ohmyzsh/ohmyzsh)
  - theme: avit
 
+## Nerd fonts 
+brew tap homebrew/cask-fonts
+brew install --cask font-hack-nerd-font
+
 ## Tmux
 brew install tmux
 

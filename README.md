@@ -32,6 +32,8 @@ Terminal: Iterm2
 brew tap homebrew/cask-fonts<br>
 brew install --cask font-hack-nerd-font
 
+!!Need Iterm2 font chosen in preferences
+
 ## Tmux
 brew install tmux
 

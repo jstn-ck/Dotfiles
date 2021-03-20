@@ -16,7 +16,7 @@ augroup denite_filter
     \ denite#do_map('toggle_select').'j'
     imap <silent><buffer> <C-n> <Plug>(denite_filter_quit)<DOWN>
     imap <silent><buffer> <C-p> <Plug>(denite_filter_quit)<UP>
-    imap <silent><buffer> <CR> <Plug>(denite_filter_quit)<CR>
+    imap <silent><buffer> <CR><Plug>(denite_filter_quit)<CR>
   endfunction
 augroup END
 
@@ -88,4 +88,4 @@ nnoremap <silent> ;r :<C-u>Dgrep<CR>
 nnoremap <silent> ;f :<C-u>Denite file/rec<CR>
 nnoremap <silent> ;; :<C-u>Denite command command_history<CR>
 nnoremap <silent> ;p :<C-u>Denite -resume<CR>
-
+ 

@@ -29,8 +29,8 @@ Terminal: Iterm2
  - theme: avit
 
 ## Nerd fonts 
-brew tap homebrew/cask-fonts
-brew install --cask font-hack-nerd-font
+brew tap homebrew/cask-fonts<br>
+brew install cask font-hack-nerd-font
 
 ## Tmux
 brew install tmux

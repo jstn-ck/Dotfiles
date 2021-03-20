@@ -22,7 +22,8 @@ Terminal: Iterm2
   
 - Use macinstall.sh
   - Dependencies<br>
-      : [dein.vim](https://github.com/Shougo/dein.vim), nvim, curl, wget, git, zsh, homebrew, python3 for autocomplete, npm(node)
+      : [dein.vim](https://github.com/Shougo/dein.vim), nvim, curl, wget, git, zsh, homebrew, python3 for autocomplete, npm(node)<br>
+      brew install the_silver_searcher for Denite.vim to work
       
 ## Zsh 
  - [Oh-My-Zsh](https://github.com/ohmyzsh/ohmyzsh)

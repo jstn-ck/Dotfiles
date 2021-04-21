@@ -1,14 +1,14 @@
 # Dotfiles
-My Dotfiles for [Neovim](https://neovim.io/) etc. <br>
+My Dotfiles for [Neovim](https://neovim.io/) and bspwm <br>
 Some configs from: https://github.com/craftzdog/dotfiles-public
 
 Theme: Solarized<br>
-Terminal: Iterm2
+Terminal: Terminator
 
-## Mac Directory structure
-- Main Path: /Users/justin
-  - Projects path: /Users/justin/Documents/work/Projekte
-  - Work projects path: /Users/justin/Documents/work/f7justin/projects
+## Linux Directory structure
+- Main Path: /home/justin
+  - Projects path: ~/Documents/work/Projekte
+  - Work projects path: ~/Documents/work/f7justin/projects
   - Vim/NVim configuration: ~/.config/nvim/init.vim
   - Zsh: ~/.zshrc
   - Ohmyzsh: ~/.oh-my-zsh
@@ -16,27 +16,14 @@ Terminal: Iterm2
   - kitty config: ~/.config/kitty/kitty.conf
   - dein path: ~/.cache/dein
 
-#  Install Mac:
-## Homebrew: `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
-!!Requirements: Homebrew, Ruby (brew install ruby)
-  
-- Use macinstall.sh
-  - Dependencies<br>
-      : [dein.vim](https://github.com/Shougo/dein.vim), nvim, curl, wget, git, zsh, homebrew, python3 for autocomplete, npm(node)<br>
-      brew install the_silver_searcher for Denite.vim to work
-      
-## Zsh 
- - [Oh-My-Zsh](https://github.com/ohmyzsh/ohmyzsh)
- - theme: avit
+#  Install Linux stuff:
 
 ## Nerd fonts 
-brew tap homebrew/cask-fonts<br>
-brew install --cask font-hack-nerd-font
 
-!!Need Iterm2 font chosen in preferences
+## Bspwm controls
 
-## Tmux
-brew install tmux
+
+
 
 ## Vim usage
 

@@ -13,7 +13,6 @@ Terminal: Terminator
   - Zsh: ~/.zshrc
   - Ohmyzsh: ~/.oh-my-zsh
   - nvim path: ~/.config/nvim/
-  - kitty config: ~/.config/kitty/kitty.conf
   - dein path: ~/.cache/dein
 
 #  Install Linux stuff:

@@ -17,7 +17,9 @@ Terminal: Iterm2
   - dein path: ~/.cache/dein
 
 #  Install Mac:
-## Homebrew: `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
+## Homebrew: `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`<br>
+Add to Path `echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> /Users/justin/.zprofile`<br>
+`eval "$(/opt/homebrew/bin/brew shellenv)"`
 !!Requirements: Homebrew, Ruby (brew install ruby)
   
 - Use macinstall.sh

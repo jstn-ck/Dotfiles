@@ -2,10 +2,11 @@
 My Dotfiles for [Neovim](https://neovim.io/) etc. <br>
 Some configs from: https://github.com/craftzdog/dotfiles-public
 
-Terminal Theme: [NeoSolarized](https://github.com/overcache/NeoSolarized)<br>
+Terminal Theme: [Solarized](https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/schemes/Solarized%20Dark%20-%20Patched.itermcolors)<br>
 Fonts: Nerd Font<br>
 Terminal: Iterm2<br>
-Shell: Fish `brew install fish`
+Shell: Fish `brew install fish`<br>
+Neovim Colorscheme: [NeoSolarized](https://github.com/overcache/NeoSolarized)
 
 # Setup Steps
   1. Install Homebrew

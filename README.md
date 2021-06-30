@@ -39,8 +39,8 @@ Neovim Colorscheme: [NeoSolarized](https://github.com/overcache/NeoSolarized)
                              `defaults write -g KeyRepeat -int 1 # normal minimum is 2 (30 ms)`
   
 ## Fish
- - Add the line /usr/local/bin/fish to /etc/shells.
- - Change your default shell with chsh -s /usr/local/bin/fish
+ - Add the line `/usr/local/bin/fish` to `/etc/shells`.
+ - Change your default shell with `chsh -s /usr/local/bin/fish`
 
  - [Oh-My-Zsh](https://github.com/ohmyzsh/ohmyzsh)
  - theme: avit

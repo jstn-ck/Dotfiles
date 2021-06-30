@@ -5,6 +5,11 @@ Some configs from: https://github.com/craftzdog/dotfiles-public
 Theme: Solarized<br>
 Terminal: Iterm2
 
+## Updating
+- brew update<br>
+- brew upgrade<br>
+- NPM: npm install -g npm@latest
+
 ## Mac Directory structure
 - Main Path: /Users/justin
   - Projects path: /Users/justin/Documents/work/Projekte

@@ -23,7 +23,7 @@ Shell: Fish `brew install fish`
   - dein path: ~/.cache/dein
 
 #  Install Mac:
-# Disable DS.Store files > `defaults write com.apple.desktopservices DSDontWriteNetworkStores true`
+### Disable DS.Store files > `defaults write com.apple.desktopservices DSDontWriteNetworkStores true`
 
 ## Homebrew: `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`<br>
 

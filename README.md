@@ -4,7 +4,7 @@ Some configs from: https://github.com/craftzdog/dotfiles-public
 
 Theme: Solarized<br>
 Terminal: Iterm2<br>
-Shell: Fish
+Shell: Fish `brew install fish`
 
 ## Updating
 - brew update<br>

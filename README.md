@@ -25,7 +25,8 @@ Neovim Colorscheme: [NeoSolarized](https://github.com/overcache/NeoSolarized)
   - Work projects path: /Users/justin/Documents/work/f7justin/projects
   - Ohmyzsh: ~/.oh-my-zsh
   - nvim path: ~/.config/nvim/
-  - fish config ~/.config/fish/
+  - fish config: ~/.config/fish/
+  - tmux: ~/.tmux.conf
 
 ### Useful:
 - Disable DS.Store files > `defaults write com.apple.desktopservices DSDontWriteNetworkStores true`<br>

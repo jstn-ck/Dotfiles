@@ -3,7 +3,8 @@ My Dotfiles for [Neovim](https://neovim.io/) etc. <br>
 Some configs from: https://github.com/craftzdog/dotfiles-public
 
 Theme: Solarized<br>
-Terminal: Iterm2
+Terminal: Iterm2<br>
+Shell: Fish
 
 ## Updating
 - brew update<br>

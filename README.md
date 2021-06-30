@@ -5,7 +5,7 @@ Some configs from: https://github.com/craftzdog/dotfiles-public
 Terminal Theme: [Solarized](https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/schemes/Solarized%20Dark%20-%20Patched.itermcolors)<br>
 Fonts: Nerd Font<br>
 Terminal: Iterm2<br>
-Shell: Fish `brew install fish`<br>
+Shell: [Fish](https://fishshell.com/) `brew install fish`<br>
 Neovim Colorscheme: [NeoSolarized](https://github.com/overcache/NeoSolarized)
 
 # Setup Steps

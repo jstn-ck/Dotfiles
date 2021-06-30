@@ -33,6 +33,9 @@ Neovim Colorscheme: [NeoSolarized](https://github.com/overcache/NeoSolarized)
 - Disable DS.Store files > `defaults write com.apple.desktopservices DSDontWriteNetworkStores true`<br>
 
 - Installing Homebrew: `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`<br>
+
+- Mac Keyboard repeat rates: `defaults write -g InitialKeyRepeat -int 10 # normal minimum is 15 (225 ms)`<br>
+                             `defaults write -g KeyRepeat -int 1 # normal minimum is 2 (30 ms)`
   
 ## Zsh 
  - [Oh-My-Zsh](https://github.com/ohmyzsh/ohmyzsh)

@@ -20,15 +20,12 @@ Neovim Colorscheme: [NeoSolarized](https://github.com/overcache/NeoSolarized)
 - Neovim Nightly version 0.5 > `brew install --HEAD tree-sitter luajit neovim`
 
 ## Mac Directory structure
-- Main Path: /Users/justin
+- Home Path: /Users/justin
   - Projects path: /Users/justin/Documents/work/Projekte
   - Work projects path: /Users/justin/Documents/work/f7justin/projects
-  - Vim/NVim configuration: ~/.config/nvim/init.vim
-  - Zsh: ~/.zshrc
   - Ohmyzsh: ~/.oh-my-zsh
   - nvim path: ~/.config/nvim/
-  - kitty config: ~/.config/kitty/kitty.conf
-  - dein path: ~/.cache/dein
+  - fish config ~/.config/fish/
 
 ### Useful:
 - Disable DS.Store files > `defaults write com.apple.desktopservices DSDontWriteNetworkStores true`<br>
@@ -38,7 +35,7 @@ Neovim Colorscheme: [NeoSolarized](https://github.com/overcache/NeoSolarized)
 - Mac Keyboard repeat rates: `defaults write -g InitialKeyRepeat -int 10 # normal minimum is 15 (225 ms)`<br>
                              `defaults write -g KeyRepeat -int 1 # normal minimum is 2 (30 ms)`
   
-## Zsh 
+## Fish
  - [Oh-My-Zsh](https://github.com/ohmyzsh/ohmyzsh)
  - theme: avit
 

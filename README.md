@@ -28,12 +28,10 @@ Shell: Fish `brew install fish`
   - kitty config: ~/.config/kitty/kitty.conf
   - dein path: ~/.cache/dein
 
-#  Install Mac:
-### Disable DS.Store files > `defaults write com.apple.desktopservices DSDontWriteNetworkStores true`
+### Useful:
+- Disable DS.Store files > `defaults write com.apple.desktopservices DSDontWriteNetworkStores true`<br>
 
-## Homebrew: `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`<br>
-
-!!Requirements: Homebrew, Ruby (brew install ruby)
+- Installing Homebrew: `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`<br>
   
 ## Zsh 
  - [Oh-My-Zsh](https://github.com/ohmyzsh/ohmyzsh)
@@ -48,8 +46,7 @@ brew install --cask font-hack-nerd-font
 ## Tmux
 brew install tmux
 
-## Vim usage
-
+## Vim remember
 j: move down one line<br>
 k: move up one line<br>
 h: move left one character<br>

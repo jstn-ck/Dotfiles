@@ -6,6 +6,11 @@ Theme: Solarized<br>
 Terminal: Iterm2<br>
 Shell: Fish `brew install fish`
 
+# Setup Steps
+  1. Install Homebrew
+  2. Update everything
+  3. Install all apps for development: `npm neovim ddev docker fish ruby nerd-font tmux iterm2`
+
 ## Updating
 - brew update<br>
 - brew upgrade<br>

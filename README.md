@@ -23,16 +23,12 @@ Shell: Fish `brew install fish`
   - dein path: ~/.cache/dein
 
 #  Install Mac:
+# Disable DS.Store files > `defaults write com.apple.desktopservices DSDontWriteNetworkStores true`
+
 ## Homebrew: `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`<br>
-Add to Path `echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> /Users/justin/.zprofile`<br>
-`eval "$(/opt/homebrew/bin/brew shellenv)"`
+
 !!Requirements: Homebrew, Ruby (brew install ruby)
   
-- Use macinstall.sh
-  - Dependencies<br>
-      : [dein.vim](https://github.com/Shougo/dein.vim), nvim, curl, wget, git, zsh, homebrew, python3 for autocomplete, npm(node)<br>
-      brew install the_silver_searcher for Denite.vim to work
-      
 ## Zsh 
  - [Oh-My-Zsh](https://github.com/ohmyzsh/ohmyzsh)
  - theme: avit

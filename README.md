@@ -11,7 +11,7 @@ Neovim Colorscheme: [NeoSolarized](https://github.com/overcache/NeoSolarized)
 # Setup Steps
   1. Install Homebrew
   2. Update everything
-  3. Install all apps for development: `npm neovim ddev docker fish ruby nerd-font tmux iterm2`
+  3. Install all apps for development: `npm neovim ddev docker fish ruby nerd-font tmux iterm2 git curl`
 
 ## Updating
 - brew update<br>

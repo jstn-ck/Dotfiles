@@ -2,7 +2,8 @@
 My Dotfiles for [Neovim](https://neovim.io/) etc. <br>
 Some configs from: https://github.com/craftzdog/dotfiles-public
 
-Theme: Solarized<br>
+Terminal Theme: Solarized<br>
+Fonts: Nerd Font<br>
 Terminal: Iterm2<br>
 Shell: Fish `brew install fish`
 

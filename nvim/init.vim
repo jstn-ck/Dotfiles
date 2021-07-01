@@ -22,7 +22,7 @@ set hlsearch
 set showcmd
 set cmdheight=1
 set laststatus=2
-set scrolloff=10
+set scrolloff=1
 set expandtab
 "let loaded_matchparen = 1
 set shell=fish

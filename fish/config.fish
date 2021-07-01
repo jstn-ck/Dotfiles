@@ -16,6 +16,7 @@ alias ll "ls -l"
 alias lla "ll -A"
 alias gs "git status"
 alias vim "nvim"
+alias vimrc "vim ~/.config/nvim/init.vim"
 
 set -gx EDITOR nvim
 

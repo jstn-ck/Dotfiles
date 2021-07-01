@@ -20,6 +20,7 @@ Neovim Colorscheme: [NeoSolarized](https://github.com/overcache/NeoSolarized)
 - brew upgrade<br>
 - NPM: npm install -g npm@latest
 - Neovim Nightly version 0.5 > `brew install --HEAD tree-sitter luajit neovim`
+- brew upgrade --fetch-HEAD tree-sitter luajit neovim
 
 ## Mac Directory structure
 - Home Path: /Users/justin

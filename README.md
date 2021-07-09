@@ -16,7 +16,7 @@ yay AuR helper:
 2. cd yay
 3. makepkg -si
 
-Other Packages: `spotify` : Key `gpg --keyserver keyserver.ubuntu.com --recv-key <key name>`
+Other Packages: `yay-S spotify visual-studio-code-bin` : Key `gpg --keyserver keyserver.ubuntu.com --recv-key <key name>`
 
 Key Repeat rate: `xset r rate 200 25`
 

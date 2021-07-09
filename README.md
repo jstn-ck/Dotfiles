@@ -9,6 +9,11 @@ Terminal: xfce4-terminal
 
 ## Important Packages
 `vim git i3-gaps dmenu xorg xorg-utils wget curl dhcpcd firefox chromium mesa tmux yarn scrot python feh compton fish npm xrandr ranger dunst `
+
+yay AuR helper: 
+1. git clone https://aur.archlinux.org/yay.git
+2. cd yay
+3. makepkg -si
  
 ## Linux Directory structure
 - Main Path: /home/justin

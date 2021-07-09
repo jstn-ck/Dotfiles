@@ -5,6 +5,9 @@ Some configs from: https://github.com/craftzdog/dotfiles-public
 Theme: Solarized<br>
 Terminal: Terminator
 
+## Important Packages
+´vim git i3-gaps dmenu xorg xorg-utils wget curl dhcpcd firefox chromim
+
 ## Linux Directory structure
 - Main Path: /home/justin
   - Projects path: ~/Documents/work/Projekte

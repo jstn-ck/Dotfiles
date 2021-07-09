@@ -6,8 +6,8 @@ Theme: Solarized<br>
 Terminal: xfce4-terminal
 
 ## Important Packages
-ˋvim git i3-gaps dmenu xorg xorg-utils wget curl dhcpcd firefox chromiumˋ
-
+`vim git i3-gaps dmenu xorg xorg-utils wget curl dhcpcd firefox chromium mesa tmux yarn scrot python feh compton fish npm xrandr ranger dunst `
+ 
 ## Linux Directory structure
 - Main Path: /home/justin
   - Projects path: ~/Documents/work/Projekte

@@ -2,6 +2,8 @@
 
 Dotfiles for my complete Arch Linux setup
 
+OS: Arch Linux
+WM/DE: i3
 Theme: Solarized<br>
 Terminal: xfce4-terminal
 

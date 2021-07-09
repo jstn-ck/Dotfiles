@@ -8,7 +8,7 @@ Theme: Solarized<br>
 Terminal: xfce4-terminal
 
 ## Important Packages
-`vim git i3 dmenu xorg wget curl dhcpcd firefox chromium mesa tmux yarn scrot python feh compton fish npm ranger dunst ruby kde neofetch htop plasma xorg-xinit i3status`
+`vim git i3 dmenu xorg wget curl dhcpcd firefox chromium mesa tmux yarn scrot python feh compton fish npm ranger dunst ruby neofetch htop plasma xorg-xinit i3status`
 
 yay AuR helper: 
 1. git clone https://aur.archlinux.org/yay.git

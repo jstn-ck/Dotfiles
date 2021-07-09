@@ -16,6 +16,8 @@ yay AuR helper:
 3. makepkg -si
 
 Other Packages: `spotify`
+
+Key Repeat rate: `xset r rate 200 25`
  
 ## Linux Directory structure
 - Main Path: /home/justin

@@ -1,12 +1,12 @@
 # Dotfiles
-My Dotfiles for [Neovim](https://neovim.io/) and bspwm <br>
-Some configs from: https://github.com/craftzdog/dotfiles-public
+
+Dotfiles for my complete Arch Linux setup
 
 Theme: Solarized<br>
-Terminal: Terminator
+Terminal: xfce4-terminal
 
 ## Important Packages
-´vim git i3-gaps dmenu xorg xorg-utils wget curl dhcpcd firefox chromium´ 
+ˋvim git i3-gaps dmenu xorg xorg-utils wget curl dhcpcd firefox chromiumˋ
 
 ## Linux Directory structure
 - Main Path: /home/justin

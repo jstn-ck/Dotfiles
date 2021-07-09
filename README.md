@@ -6,6 +6,7 @@ OS: Arch Linux<br>
 WM/DE: i3<br>
 Theme: Solarized<br>
 Terminal: xfce4-terminal
+shell: Fish
 
 ## Important Packages
 `vim git i3 dmenu xorg wget curl dhcpcd firefox chromium mesa tmux yarn scrot python feh compton fish npm ranger dunst ruby neofetch htop plasma xorg-xinit i3status`

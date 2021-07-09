@@ -6,7 +6,7 @@ Theme: Solarized<br>
 Terminal: Terminator
 
 ## Important Packages
-´vim git i3-gaps dmenu xorg xorg-utils wget curl dhcpcd firefox chromim
+´vim git i3-gaps dmenu xorg xorg-utils wget curl dhcpcd firefox chromium´ 
 
 ## Linux Directory structure
 - Main Path: /home/justin

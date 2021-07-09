@@ -29,4 +29,5 @@ Key Repeat rate: `xset r rate 200 25`
   - Ohmyzsh: ~/.oh-my-zsh
   - nvim path: ~/.config/nvim/
 
-## Nerd fonts 
+## Fonts
+`yay -S tex-gyre-fonts otf-libertinus noto-fonts-emoji`

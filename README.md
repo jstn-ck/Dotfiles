@@ -18,7 +18,7 @@ yay AuR helper:
 
 Other Packages: `yay -S spotify visual-studio-code-bin slack-desktop autojump` : Key `gpg --keyserver keyserver.ubuntu.com --recv-key <key name>`
 
-Key Repeat rate: `xset r rate 200 25` Put in ~/.xinitrc
+Key Repeat rate: `xset r rate 200 25` Put in i3 config file
 
 GPG Key for yay: `gpg --full-gen-key`
  

@@ -23,13 +23,11 @@ Key Repeat rate: `xset r rate 200 25` Put in ~/.xinitrc
 GPG Key for yay: `gpg --full-gen-key`
  
 ## Linux Directory structure
-- Main Path: /home/justin
+jstnarch<br>
+- Main Path: /home/jstn
   - Projects path: ~/Documents/work/Projekte
   - Work projects path: ~/Documents/work/f7justin/projects
-  - Vim/NVim configuration: ~/.config/nvim/init.vim
-  - Zsh: ~/.zshrc
   - Ohmyzsh: ~/.oh-my-zsh
-  - nvim path: ~/.config/nvim/
 
 ## Fonts
 `yay -S tex-gyre-fonts otf-libertinus noto-fonts-emoji`

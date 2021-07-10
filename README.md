@@ -9,14 +9,14 @@ Terminal: xfce4-terminal<br>
 shell: Fish
 
 ## Important Packages
-`vim git i3 dmenu xorg wget curl dhcpcd firefox chromium mesa tmux yarn scrot python feh compton fish npm ranger dunst ruby neofetch htop plasma xorg-xinit i3status code`
+`vim git i3 dmenu xorg wget curl dhcpcd firefox chromium mesa tmux yarn scrot python feh compton fish npm ranger dunst ruby neofetch htop plasma xorg-xinit i3status code discord`
 
 yay AuR helper: 
 1. git clone https://aur.archlinux.org/yay.git
 2. cd yay
 3. makepkg -si
 
-Other Packages: `yay-S spotify visual-studio-code-bin` : Key `gpg --keyserver keyserver.ubuntu.com --recv-key <key name>`
+Other Packages: `yay -S spotify visual-studio-code-bin slack-desktop` : Key `gpg --keyserver keyserver.ubuntu.com --recv-key <key name>`
 
 Key Repeat rate: `xset r rate 200 25` Put in ~/.xinitrc
 

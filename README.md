@@ -33,6 +33,7 @@ jstnarch<br>
   - i3: ~/.config/i3/config
   - Vim: ~/.vimrc
   - Ohmyzsh: ~/.oh-my-zsh
+  - Xinit: ~/.xinitrc @@ Bootfile
 
 ## Fonts
 `yay -S tex-gyre-fonts otf-libertinus noto-fonts-emoji`

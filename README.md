@@ -29,6 +29,9 @@ jstnarch<br>
 - Main Path: /home/jstn
   - Projects path: ~/Documents/Projects
   - Work projects path: ~/Documents/Work/F7justin/Projects
+  - Fish: ~/.config/fish/config.fish
+  - i3: ~/.config/i3/config
+  - Vim: ~/.vimrc
   - Ohmyzsh: ~/.oh-my-zsh
 
 ## Fonts

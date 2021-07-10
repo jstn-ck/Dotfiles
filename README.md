@@ -27,8 +27,8 @@ SSH: `ssh-keygen -b 4096`
 ## Linux Directory structure
 jstnarch<br>
 - Main Path: /home/jstn
-  - Projects path: ~/Documents/work/Projekte
-  - Work projects path: ~/Documents/work/f7justin/projects
+  - Projects path: ~/Documents/Projects
+  - Work projects path: ~/Documents/Work/F7justin/Projects
   - Ohmyzsh: ~/.oh-my-zsh
 
 ## Fonts

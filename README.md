@@ -33,6 +33,7 @@ jstnarch<br>
   - i3: ~/.config/i3/config
   - Vim: ~/.vimrc
   - Xinit: ~/.xinitrc @@ Bootfile
+  - Compton: ~/.config/compton.conf
 
 ## Fonts
 `yay -S tex-gyre-fonts otf-libertinus noto-fonts-emoji`

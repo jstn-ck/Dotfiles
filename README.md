@@ -32,7 +32,6 @@ jstnarch<br>
   - Fish: ~/.config/fish/config.fish
   - i3: ~/.config/i3/config
   - Vim: ~/.vimrc
-  - Ohmyzsh: ~/.oh-my-zsh
   - Xinit: ~/.xinitrc @@ Bootfile
 
 ## Fonts

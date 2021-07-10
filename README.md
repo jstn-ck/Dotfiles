@@ -5,7 +5,7 @@ Dotfiles for my complete Arch Linux setup
 OS: Arch Linux<br>
 WM/DE: i3<br>
 Theme: Solarized<br>
-Terminal: xfce4-terminal<br>
+Terminal: Alacritty<br>
 shell: Fish
 
 ## Important Packages

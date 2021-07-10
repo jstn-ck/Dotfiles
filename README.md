@@ -34,6 +34,7 @@ jstnarch<br>
   - Vim: ~/.vimrc
   - Xinit: ~/.xinitrc @@ Bootfile
   - Compton: ~/.config/compton.conf
+  - Alacritty: ~/.config/alacritty/alacritty.yml
 
 ## Fonts
 `yay -S tex-gyre-fonts otf-libertinus noto-fonts-emoji`

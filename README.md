@@ -10,9 +10,11 @@ shell: Fish<br>
 Editor: Sublime(Noto font)
 
 ## Important Packages
-`gvim git i3 dmenu xorg wget curl dhcpcd firefox chromium mesa tmux yarn scrot python feh compton fish npm ranger dunst ruby neofetch htop plasma xorg-xinit i3status code discord openssh xclip rofi dolphin alsa-utils gnome noto-fonts`
+`gvim git i3 dmenu xorg wget curl dhcpcd firefox chromium mesa tmux yarn scrot python feh compton fish npm ranger dunst ruby neofetch htop plasma xorg-xinit i3status code discord openssh xclip rofi dolphin alsa-utils gnome noto-fonts docker`
 
 Angular: `npm install -g @angular/cli`
+
+Homebrew: https://brew.sh/
 
 font reset: fc-cache
 

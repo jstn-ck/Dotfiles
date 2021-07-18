@@ -21,8 +21,6 @@ Other Packages: `yay -S spotify visual-studio-code-bin slack-desktop autojump` :
 
 Key Repeat rate: `xset r rate 200 25` Put in i3 config file
 
-GPG Key for yay: `gpg --full-gen-key`
-
 SSH: `ssh-keygen -b 4096` 
  
 ## Linux Directory structure

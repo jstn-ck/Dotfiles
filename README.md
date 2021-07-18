@@ -4,7 +4,6 @@ Dotfiles for my complete Arch Linux setup
 
 OS: Arch Linux<br>
 WM/DE: GNOME<br>
-Theme: Solarized<br>
 Terminal: xfce4-terminal<br>
 shell: Fish<br>
 Editor: Sublime(Noto font)

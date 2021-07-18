@@ -44,7 +44,9 @@ jstnarch<br>
 - Geometry: 110 col * 20 row
 
 ## GNOME settings
-Repeat Rate: 
+- Shortcut: xfce4-terminal & >> ctrl+alt+enter
+
+- Repeat Rate: 
 ![Screenshot from 2021-07-18 13-10-33](https://user-images.githubusercontent.com/56719370/126064919-379a435d-858c-4f66-9abc-ae33eee922fd.png)
 
 ## Fonts

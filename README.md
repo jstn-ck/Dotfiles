@@ -7,6 +7,7 @@ WM/DE: GNOME<br>
 Theme: Solarized<br>
 Terminal: xfce4-terminal<br>
 shell: Fish
+Editor: Sublime
 
 ## Important Packages
 `vim git i3 dmenu xorg wget curl dhcpcd firefox chromium mesa tmux yarn scrot python feh compton fish npm ranger dunst ruby neofetch htop plasma xorg-xinit i3status code discord openssh xclip rofi dolphin alsa-utils gnome`

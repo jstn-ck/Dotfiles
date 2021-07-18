@@ -3,7 +3,7 @@
 Dotfiles for my complete Arch Linux setup
 
 OS: Arch Linux<br>
-WM/DE: i3<br>
+WM/DE: GNOME<br>
 Theme: Solarized<br>
 Terminal: xfce4-terminal<br>
 shell: Fish
@@ -35,6 +35,10 @@ jstnarch<br>
   - Xinit: ~/.xinitrc @@ Bootfile
   - Compton: ~/.config/compton.conf
   - Alacritty: ~/.config/alacritty/alacritty.yml
+
+## GNOME settings
+Repeat Rate: 
+![Screenshot from 2021-07-18 13-10-33](https://user-images.githubusercontent.com/56719370/126064919-379a435d-858c-4f66-9abc-ae33eee922fd.png)
 
 ## Fonts
 `yay -S tex-gyre-fonts otf-libertinus noto-fonts-emoji`

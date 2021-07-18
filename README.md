@@ -44,6 +44,8 @@ jstnarch<br>
 ## GNOME settings
 - Shortcut: xfce4-terminal & >> ctrl+alt+enter
 
+- Packages to remove: pacman -R gnome-books gnome-calculator gnome-calendar gnome-documents gnome-logs gnome-maps gnome-music gnome-photos gnome-software gedit gnome-weather epiphany
+
 - Repeat Rate: 
 ![Screenshot from 2021-07-18 13-10-33](https://user-images.githubusercontent.com/56719370/126064919-379a435d-858c-4f66-9abc-ae33eee922fd.png)
 

@@ -37,6 +37,10 @@ jstnarch<br>
   - Compton: ~/.config/compton.conf
   - Alacritty: ~/.config/alacritty/alacritty.yml
 
+## Xfce4-Terminal Settings
+- Font: Source Code Pro regular 11
+- Transparency: 0.85
+
 ## GNOME settings
 Repeat Rate: 
 ![Screenshot from 2021-07-18 13-10-33](https://user-images.githubusercontent.com/56719370/126064919-379a435d-858c-4f66-9abc-ae33eee922fd.png)

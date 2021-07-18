@@ -6,7 +6,8 @@ OS: Arch Linux<br>
 WM/DE: GNOME<br>
 Terminal: xfce4-terminal<br>
 shell: Fish<br>
-Editor: Sublime(Noto font)
+Editor: Sublime(Noto font)<br>
+GitClient: Sublime Merge<br>
 Firefox: Font(Nimbus Roman)
 
 ## Important Packages

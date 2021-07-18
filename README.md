@@ -40,7 +40,6 @@ jstnarch<br>
   - Vim: ~/.vimrc
   - Xinit: ~/.xinitrc @@ Bootfile
   - Compton: ~/.config/compton.conf
-  - Alacritty: ~/.config/alacritty/alacritty.yml
 
 ## Xfce4-Terminal Settings
 - Font: Source Code Pro regular 11

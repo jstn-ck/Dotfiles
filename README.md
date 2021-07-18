@@ -6,7 +6,7 @@ OS: Arch Linux<br>
 WM/DE: GNOME<br>
 Theme: Solarized<br>
 Terminal: xfce4-terminal<br>
-shell: Fish
+shell: Fish<br>
 Editor: Sublime
 
 ## Important Packages

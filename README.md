@@ -7,6 +7,7 @@ WM/DE: GNOME<br>
 Terminal: xfce4-terminal<br>
 shell: Fish<br>
 Editor: Sublime(Noto font)
+Firefox: Font(Nimbus Roman)
 
 ## Important Packages
 `gvim git i3 dmenu xorg wget curl dhcpcd firefox chromium mesa tmux yarn scrot python feh compton fish npm ranger dunst ruby neofetch htop plasma xorg-xinit i3status code discord openssh xclip rofi dolphin alsa-utils gnome noto-fonts docker`

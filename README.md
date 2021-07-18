@@ -40,6 +40,7 @@ jstnarch<br>
 ## Xfce4-Terminal Settings
 - Font: Source Code Pro regular 11
 - Transparency: 0.95
+- Colors: Move gruvbox-dark.theme to config-xfce4-terminal-colorschemes
 
 ## GNOME settings
 Repeat Rate: 

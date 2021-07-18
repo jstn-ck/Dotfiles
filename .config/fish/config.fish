@@ -12,7 +12,9 @@ set -g theme_hostname always
 alias ls "ls -la"
 alias gs "git status"
 alias vimrc "vim ~/.vimrc"
-alias i3c "vim ~/.config/i3/config"
+alias fishconf "vim ~/.config/fish/config.fish"
+alias dock "systemctl start docker"
+alias work "cd ~/Documents/Work/F7justin/Projects"
 
 set -gx EDITOR vim
 

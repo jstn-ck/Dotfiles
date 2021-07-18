@@ -39,7 +39,7 @@ jstnarch<br>
 
 ## Xfce4-Terminal Settings
 - Font: Source Code Pro regular 11
-- Transparency: 0.85
+- Transparency: 0.95
 
 ## GNOME settings
 Repeat Rate: 

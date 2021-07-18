@@ -14,6 +14,8 @@ Editor: Sublime(Noto font)
 
 Angular: `npm install -g @angular/cli`
 
+DDEV: `brew install drud/ddev/ddev`
+
 Homebrew: https://brew.sh/
 
 font reset: fc-cache

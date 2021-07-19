@@ -17,6 +17,8 @@ Angular: `npm install -g @angular/cli`
 
 DDEV: `brew install drud/ddev/ddev`
 
+Docker Compose: `https://docs.docker.com/compose/install/`
+
 Homebrew: https://brew.sh/
 
 font reset: fc-cache

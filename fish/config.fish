@@ -10,22 +10,11 @@ set -g theme_hide_hostname no
 set -g theme_hostname always
 
 # aliases
-alias ls "ls -p -G"
-alias la "ls -A"
-alias ll "ls -l"
-alias lla "ll -A"
+alias ls "ls -la"
 alias gs "git status"
-alias vim "nvim"
-alias vimrc "vim ~/.config/nvim/init.vim"
+alias vimrc "vim ~/.vimrc"
+alias fix "npm run stylelint-fix && npm run eslint-fix"
+alias fishconf "vim ~/.config/fish/config.fish"
+alias work "cd ~/Documents/F7"
 
 set -gx EDITOR nvim
-
-set -gx PATH bin $PATH
-set -gx PATH ~/bin $PATH
-set -gx PATH ~/.local/bin $PATH
-
-
-set LOCAL_CONFIG (dirname (status --current-filename))/config-local.fish
-if test -f $LOCAL_CONFIG
-  source $LOCAL_CONFIG
-end

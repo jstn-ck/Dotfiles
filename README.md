@@ -1,3 +1,7 @@
+## Important for Docker on windows wsl (BREW)
+- echo 'eval $(/home/linuxbrew/.linuxbrew/bin/brew shellenv)' >> ~/.profile && source ~/.profile
+- eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
+
 # Dotfiles
 My Dotfiles for [Neovim](https://neovim.io/) etc. <br>
 Some configs from: https://github.com/craftzdog/dotfiles-public

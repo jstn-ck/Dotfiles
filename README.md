@@ -1,7 +1,3 @@
-## Important for Docker on windows wsl (BREW)
-- echo 'eval $(/home/linuxbrew/.linuxbrew/bin/brew shellenv)' >> ~/.profile && source ~/.profile
-- eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
-
 # Dotfiles
 My Dotfiles for [Neovim](https://neovim.io/) etc. <br>
 Some configs from: https://github.com/craftzdog/dotfiles-public
@@ -22,9 +18,7 @@ Neovim Colorscheme: [NeoSolarized](https://github.com/overcache/NeoSolarized)
 ## Updating
 - brew update<br>
 - brew upgrade<br>
-- NPM: npm install -g npm@latest
-- Neovim Nightly version 0.5 > `brew install --HEAD tree-sitter luajit neovim`
-- brew upgrade --fetch-HEAD tree-sitter luajit neovim
+- NPM: npm install -g npm
 
 ## Mac Directory structure
 - Home Path: /Users/justin

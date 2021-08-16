@@ -64,6 +64,7 @@ brew install tmux
 - x : delete char
 - gd : search word under cursor
 - gc : copy selected
+- sf : directory searcher
 
 ## Vim remember
 j: move down one line<br>

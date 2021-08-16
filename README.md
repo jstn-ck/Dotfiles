@@ -65,6 +65,9 @@ brew install tmux
 - gd : search word under cursor
 - gc : copy selected
 - sf : directory searcher
+- gh : 
+- K : 
+- ;f : telescope file finder
 
 ## Vim remember
 j: move down one line<br>

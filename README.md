@@ -57,7 +57,13 @@ brew install tmux
 ![image](https://user-images.githubusercontent.com/56719370/123977482-4edcb480-d9bf-11eb-80c8-b32196ef8013.png)
 
 ## Vim Keymaps
-TODO
+- ss : splithor
+- sv : splitvert
+- ctrl+a : select all
+- dw : delete word backwards
+- x : delete char
+- gd : search word under cursor
+- gc : copy selected
 
 ## Vim remember
 j: move down one line<br>

@@ -63,11 +63,13 @@ brew install tmux
 - dw : delete word backwards
 - x : delete char
 - gd : search word under cursor
-- gc : copy selected
+- gc : comment out
+- sc : copy selected to system clipboard
 - sf : directory searcher
 - gh : 
 - K : 
 - ;f : telescope file finder
+- ;r : live grep (cool)
 
 ## Vim remember
 j: move down one line<br>

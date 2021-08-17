@@ -4,7 +4,8 @@ nmap sv :vsplit<Return><C-w>w
 nmap <C-a> gg<S-v>G
 nnoremap dw vb"_d
 nnoremap x "_x
-vnoremap gc "*yy
+vnoremap sc "*yy
+nmap Y v$
 
 let g:user_emmet_expandabbr_key='<Tab>'
 imap <expr> <tab> emmet#expandAbbrIntelligent("\<tab>")

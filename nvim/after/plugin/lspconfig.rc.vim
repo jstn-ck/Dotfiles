@@ -10,6 +10,11 @@ lua << EOF
 local nvim_lsp = require('lspconfig')
 local protocol = require'vim.lsp.protocol'
 
+local tspath = "/Users/justin/.npm-global/bin/tsserver"
+local diapath = "/Users/justin/.npm-global/bin/diagnostic-languageserver"
+local csspath = "/Users/justin/.npm-global/bin/css-languageserver"
+
+
 -- Use an on_attach function to only map the following keys 
 -- after the language server attaches to the current buffer
 local on_attach = function(client, bufnr)
@@ -81,16 +86,14 @@ local on_attach = function(client, bufnr)
   }
 end
 
-nvim_lsp.flow.setup {
-  on_attach = on_attach
-}
-
 nvim_lsp.tsserver.setup {
+  cmd = { tspath, "--stdio" },
   on_attach = on_attach,
   filetypes = { "typescript", "typescriptreact", "typescript.tsx" }
 }
 
 nvim_lsp.diagnosticls.setup {
+  cmd = { diapath, "--stdio" },
   on_attach = on_attach,
   filetypes = { 'javascript', 'javascriptreact', 'json', 'typescript', 'typescriptreact', 'css', 'less', 'scss', 'markdown', 'pandoc' },
   init_options = {

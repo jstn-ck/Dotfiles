@@ -64,7 +64,7 @@ brew install tmux
 - x : delete char
 - gd : search word under cursor
 - gc : comment out
-- sp : 
+- sc : copy selected to system clipboard
 - sf : directory searcher
 - gh : 
 - K : 

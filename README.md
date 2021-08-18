@@ -66,10 +66,11 @@ brew install tmux
 - gc : comment out
 - sc : copy selected to system clipboard
 - sf : directory searcher
-- gh : 
-- K : 
+- gh : lsp finder
+- K : lsp definiton
 - ;f : telescope file finder
 - ;r : live grep (cool)
+- Y : select to end of line
 
 ## Vim remember
 j: move down one line<br>

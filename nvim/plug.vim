@@ -26,7 +26,10 @@ if has("nvim")
   Plug 'hrsh7th/vim-vsnip'
   Plug 'hrsh7th/vim-vsnip-integ'
   Plug 'mhartington/formatter.nvim'
-  Plug 'nvim-lua/completion-nvim'
+  Plug 'hrsh7th/nvim-compe'
+  Plug 'windwp/nvim-autopairs'
+  Plug 'cohama/lexima.vim'
+  Plug 'windwp/nvim-ts-autotag'
 endif
 
 call plug#end()

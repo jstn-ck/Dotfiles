@@ -87,7 +87,6 @@ autocmd FileType yaml setlocal shiftwidth=2 tabstop=2
 "}}}
 runtime ./plug.vim
 runtime ./maps.vim
-runtime ./lspconfig.lua
 " Syntax theme "{{{
 " ---------------------------------------------------------------------
 

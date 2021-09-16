@@ -1,22 +1,37 @@
 # Dotfiles
 My Dotfiles for [Neovim](https://neovim.io/)<br>
-Windows works bad with vim, install Linux instead
 
-# Install Windows
-https://github.com/neovim/neovim/releases/
+ Theme: solarized<br>
+ OS: Windows<br>
+ Terminal: Windows Terminal<br>
+ WSL: Ubuntu<br>
+ Editor: Neovim<br>
+ Package Manager: chocolatey
+ 
 
-- git bash: https://gitforwindows.org/
+# Install
+Neovim: https://github.com/neovim/neovim/releases/<br>
 
-Requirements:
-- "xcopy" command in $PATH (Windows)
-- git ofc
+Choclatey: https://chocolatey.org/install<br>
+
+git bash: https://gitforwindows.org/<br>
+
+
 
 ## Windows directorys
  - C:/Users/Justin Kanwischer/AppData/Local/nvim
  - neovim config: init.vim
 
- Plugin Manager: [dein.vim](https://github.com/Shougo/dein.vim)<br>
- Theme: solarized
+
+## Dev Programms/Tools in use
+- Slack
+- Thunderbird
+- Node
+- Docker
+- DDev
+- 
+
+
 ## Vim usage
 
 j: move down one line<br>

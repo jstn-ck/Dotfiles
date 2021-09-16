@@ -10,7 +10,7 @@ My Dotfiles for [Neovim](https://neovim.io/)<br>
  
 
 # Install
-Neovim: https://github.com/neovim/neovim/releases/<br>
+Neovim: choco install neovim<br>
 
 Choclatey: https://chocolatey.org/install<br>
 

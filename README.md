@@ -18,7 +18,6 @@ Steps:
  5. cp -r /mnt/c/Users/kanwi/.ssh ~/.
  6. chmod 700 ~/.ssh/id_rsa
  7. Install Packages from Dotfiles/Master
- 8. Create Directory Structure and Links
 
 Choclatey: https://chocolatey.org/install<br>
 

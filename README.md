@@ -53,6 +53,7 @@ git bash: https://gitforwindows.org/<br>
 - Spotify
 - Adobe XD
 - Git Bash
+- Python
 
 
 ## Vim usage

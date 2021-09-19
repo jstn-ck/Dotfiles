@@ -19,6 +19,7 @@ Steps:
  6. chmod 700 ~/.ssh/id_rsa
  7. Install Packages from Dotfiles/Master
  8. change shell: chsh: /usr/bin/fish
+ 9. ssh-agent /usr/bin/fish
 
 Choclatey: https://chocolatey.org/install<br>
 

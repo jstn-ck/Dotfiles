@@ -10,12 +10,14 @@ My Dotfiles for [Neovim](https://neovim.io/)<br>
  
 
 # Install
-Neovim: choco install neovim<br>
+Steps:
+ 1. Install Ubuntu Wsl
+ 2. Install Packages from Dotfiles/Master
+ 3. Create Directory Structure and Links
 
 Choclatey: https://chocolatey.org/install<br>
 
 git bash: https://gitforwindows.org/<br>
-
 
 
 ## Windows directorys
@@ -37,10 +39,10 @@ git bash: https://gitforwindows.org/<br>
 - Windows Terminal
 - Spotify
 - Adobe XD
+- Git Bash
 
 
 ## Vim usage
-
 j: move down one line<br>
 k: move up one line<br>
 h: move left one character<br>

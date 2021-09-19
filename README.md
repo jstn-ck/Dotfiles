@@ -40,6 +40,10 @@ Newest Neovim:
  5. sudo apt install ripgrep
  6. Make neovim from source
 
+## Docker on Windows
+1. Install docker desktop
+2. Read ddev windows install doc
+
 ## Programms/Tools in use
 - Slack
 - Thunderbird

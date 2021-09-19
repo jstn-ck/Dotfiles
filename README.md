@@ -24,8 +24,9 @@ Choclatey: https://chocolatey.org/install<br>
 git bash: https://gitforwindows.org/<br>
 
 
-## Windows directorys
+## Ubuntu Terminal
 
+![image](https://user-images.githubusercontent.com/56719370/133932315-884ca289-3284-4cd1-9e48-7847ef778345.png)
 
 
 ## Programms/Tools in use

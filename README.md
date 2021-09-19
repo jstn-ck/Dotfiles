@@ -12,8 +12,11 @@ My Dotfiles for [Neovim](https://neovim.io/)<br>
 # Install
 Steps:
  1. Install Ubuntu Wsl
- 2. Install Packages from Dotfiles/Master
- 3. Create Directory Structure and Links
+ 2. run: sudo apt update && sudo apt upgrade
+ 3. run: mkdir /mnt/c/projects
+ 4. run: ln -s /mnt/c/projects
+ 5. Install Packages from Dotfiles/Master
+ 6. Create Directory Structure and Links
 
 Choclatey: https://chocolatey.org/install<br>
 
@@ -21,14 +24,16 @@ git bash: https://gitforwindows.org/<br>
 
 
 ## Windows directorys
- - C:/Users/Justin Kanwischer/AppData/Local/nvim
- - neovim config: init.vim
+
 
 
 ## Programms/Tools in use
 - Slack
 - Thunderbird
 - Node
+- NPM
+- React
+- Ruby
 - Docker
 - DDev
 - Sublime merge

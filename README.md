@@ -31,6 +31,9 @@ git bash: https://gitforwindows.org/<br>
 
 ![image](https://user-images.githubusercontent.com/56719370/133932315-884ca289-3284-4cd1-9e48-7847ef778345.png)
 
+## Neovim Plugin Manager install
+`sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs \
+       https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'` 
 
 ## Programms/Tools in use
 - Slack

@@ -15,8 +15,10 @@ Steps:
  2. run: sudo apt update && sudo apt upgrade
  3. run: mkdir /mnt/c/projects
  4. run: ln -s /mnt/c/projects
- 5. Install Packages from Dotfiles/Master
- 6. Create Directory Structure and Links
+ 5. cp -r /mnt/c/Users/kanwi/.ssh ~/.
+ 6. chmod 700 ~/.ssh/id_rsa
+ 7. Install Packages from Dotfiles/Master
+ 8. Create Directory Structure and Links
 
 Choclatey: https://chocolatey.org/install<br>
 

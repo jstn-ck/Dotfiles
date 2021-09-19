@@ -20,6 +20,7 @@ Steps:
  7. Install Packages from Dotfiles/Master
  8. change shell: chsh: /usr/bin/fish
  9. ssh-agent /usr/bin/fish
+ 10. For localhost: Start localhost in windows terminal(npm run dev) then it should work in WSL
 
 Choclatey: https://chocolatey.org/install<br>
 

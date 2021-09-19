@@ -23,13 +23,20 @@ git bash: https://gitforwindows.org/<br>
  - neovim config: init.vim
 
 
-## Dev Programms/Tools in use
+## Programms/Tools in use
 - Slack
 - Thunderbird
 - Node
 - Docker
 - DDev
-- 
+- Sublime merge
+- Razer Synapse
+- AMD Radeon Software
+- Chrome
+- Firefox
+- Windows Terminal
+- Spotify
+- Adobe XD
 
 
 ## Vim usage

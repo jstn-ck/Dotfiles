@@ -36,9 +36,9 @@ git bash: https://gitforwindows.org/<br>
        https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'` 
        
 Newest Neovim: 
- 1. `sudo add-apt-repository ppa:neovim-ppa/unstable`
- 2. `sudo apt-get update`
- 3. `sudo apt-get install neovim`
+ 4. npm install -g neovim
+ 5. sudo apt install ripgrep
+ 6. Make neovim from source
 
 ## Programms/Tools in use
 - Slack

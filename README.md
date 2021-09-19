@@ -39,6 +39,8 @@ Newest Neovim:
  4. npm install -g neovim
  5. sudo apt install ripgrep
  6. Make neovim from source
+ 7. install python3
+ 8. sudo pip3 install --upgrade pynvim
 
 ## Docker on Windows
 1. Install docker desktop

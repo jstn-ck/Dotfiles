@@ -30,6 +30,8 @@ if has("nvim")
   Plug 'windwp/nvim-autopairs'
   Plug 'cohama/lexima.vim'
   Plug 'windwp/nvim-ts-autotag'
+  Plug 'editorconfig/editorconfig-vim'
+  Plug 'mg979/vim-visual-multi'
 endif
 
 call plug#end()

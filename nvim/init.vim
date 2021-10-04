@@ -11,11 +11,11 @@ set number
 syntax enable
 set fileencodings=utf-8,sjis,euc-jp,latin
 set encoding=utf-8
-set relativenumber
 set title
 set autoindent
 set mouse=a
 set background=dark
+set noswapfile
 set nobackup
 set hlsearch
 set showcmd

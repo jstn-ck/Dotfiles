@@ -6,6 +6,7 @@ nnoremap dw vb"_d
 nnoremap x "_x
 vnoremap sc "*yy
 nmap Y v$
+nnoremap <silent> <Esc> :nohl<CR><C-l>
 
 let g:user_emmet_expandabbr_key='<Tab>'
 imap <expr> <tab> emmet#expandAbbrIntelligent("\<tab>")

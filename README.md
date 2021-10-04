@@ -57,6 +57,12 @@ brew install tmux
 ## Iterm2
 ![image](https://user-images.githubusercontent.com/56719370/123977482-4edcb480-d9bf-11eb-80c8-b32196ef8013.png)
 
+## Neovim Dependency Setup
+1. brew install fd
+2. :checkhealth
+3. python3 -m pip install --user --upgrade pynvim
+4. :UpdateRemotePlugins
+
 ## Vim Keymaps
 - ss : splithor
 - sv : splitvert

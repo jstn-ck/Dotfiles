@@ -20,7 +20,7 @@ Neovim Colorscheme: [NeoSolarized](https://github.com/overcache/NeoSolarized)
 - brew upgrade<br>
 - NPM: npm install -g npm
 - npm install -g neovim
-- gem update neovim
+- sudo gem update neovim -n /usr/local/bin
 - PlugClean/PlugUpdate in Vim
 - :Checkhealth
 

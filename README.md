@@ -19,6 +19,10 @@ Neovim Colorscheme: [NeoSolarized](https://github.com/overcache/NeoSolarized)
 - brew update<br>
 - brew upgrade<br>
 - NPM: npm install -g npm
+- npm install -g neovim
+- gem update neovim
+- PlugClean/PlugUpdate in Vim
+- :Checkhealth
 
 ## Mac Directory structure
 - Home Path: /Users/justin

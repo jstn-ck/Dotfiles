@@ -80,7 +80,7 @@ brew install tmux
 - gh : lsp finder
 - K : lsp definiton
 - ;f : telescope file finder
-- ;r : live grep (cool)
+- ;r : live grep
 - Y : select to end of line
 
 ## Vim remember

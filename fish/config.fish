@@ -28,3 +28,7 @@ set -gx EDITOR nvim
 set -gx PATH bin $PATH
 set -gx PATH ~/bin $PATH
 set -gx PATH ~/.local/bin $PATH
+
+[ -f /opt/homebrew/share/autojump/autojump.fish ]; and source /opt/homebrew/share/autojump/autojump.fish
+fish_add_path /opt/homebrew/opt/ruby/bin
+fish_add_path /opt/homebrew/opt/ruby/bin

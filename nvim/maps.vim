@@ -1,4 +1,4 @@
-" JCKs VIM MAPPINGS
+" JCK's VIM MAPPINGS
 nmap ss :split<Return><C-w>w
 nmap sv :vsplit<Return><C-w>w
 nmap <C-a> gg<S-v>G

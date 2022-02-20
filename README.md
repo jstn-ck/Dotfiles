@@ -80,7 +80,7 @@ brew install tmux
 - sf : directory searcher
 - gh : lsp finder
 - K : lsp definiton
-- ;f : telescope file finder
+- ;f : telescope file finder @@@ 'word / search exact
 - ;r : live grep
 - Y : select to end of line
 

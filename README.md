@@ -64,9 +64,15 @@ brew install tmux
 ## Neovim Dependency Setup
 1. brew install fd
 2. brew install rg
-3. :checkhealth
-4. python3 -m pip install --user --upgrade pynvim
-5. :UpdateRemotePlugins
+3. npm i -g vscode-langservers-extracted / css support
+4. npm i -g tsserver
+5. npm i -g vscode-css-languageserver-bin
+6. npm i -g css-languageserver
+7. npm i -g typescript-language-server
+8. npm i -g diagnostic-language-server
+9. :checkhealth
+10. python3 -m pip install --user --upgrade pynvim
+11. :UpdateRemotePlugins
 
 ## Vim Keymaps
 - ss : splithor

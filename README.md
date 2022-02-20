@@ -63,9 +63,10 @@ brew install tmux
 
 ## Neovim Dependency Setup
 1. brew install fd
-2. :checkhealth
-3. python3 -m pip install --user --upgrade pynvim
-4. :UpdateRemotePlugins
+2. brew install rg
+3. :checkhealth
+4. python3 -m pip install --user --upgrade pynvim
+5. :UpdateRemotePlugins
 
 ## Vim Keymaps
 - ss : splithor

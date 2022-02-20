@@ -32,6 +32,9 @@ if has("nvim")
   Plug 'windwp/nvim-ts-autotag'
   Plug 'editorconfig/editorconfig-vim'
   Plug 'mg979/vim-visual-multi'
+  Plug 'nvim-telescope/telescope-fzf-native.nvim', { 'do': 'make' }
+  Plug 'hrsh7th/vim-vsnip'
+  Plug 'hrsh7th/vim-vsnip-integ'
 endif
 
 call plug#end()

@@ -73,6 +73,7 @@ brew install tmux
 9. :checkhealth
 10. python3 -m pip install --user --upgrade pynvim
 11. :UpdateRemotePlugins
+12. if telescope error, delete and install: telescope -> fzfnative -> change telescope.rc
 
 ## Vim Keymaps
 - ss : splithor

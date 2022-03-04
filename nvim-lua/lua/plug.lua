@@ -1,10 +1,6 @@
-if vim.fn.has('nvim') == 1 then
-  let g:plug_home = stdpath('data') . '/plugged'
-end
-
 local Plug = vim.fn['plug#']
 
-vim.call('plug#begin')
+vim.call('plug#begin','~/.config/nvim/plugged')
 
   Plug 'tpope/vim-fugitive'
   Plug 'tpope/vim-rhubarb'
@@ -12,9 +8,6 @@ vim.call('plug#begin')
   Plug 'tpope/vim-commentary'
 
   Plug 'hoob3rt/lualine.nvim'
-  Plug 'kristijanhusak/defx-git'
-  Plug 'kristijanhusak/defx-icons'
-  Plug ('Shougo/defx.nvim', {['do'] = ':UpdateRemotePlugins'})
   Plug 'neovim/nvim-lspconfig'
   Plug 'glepnir/lspsaga.nvim'
   Plug 'folke/lsp-colors.nvim'

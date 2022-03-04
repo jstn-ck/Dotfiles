@@ -27,24 +27,26 @@ vim.cmd[[
   augroup END
   syntax enable
   colorscheme NeoSolarized
+  set ve+=onemore
+  set path+=**
+  filetype plugin indent on
+  set fileencodings=utf-8,sjis,euc-jp,latin
+  set backupskip=/tmp/*,/private/tmp/*
+  set suffixesadd=.js,.es,.jsx,.json,.css,.less,.sass,.styl,.php,.py,.md
 ]]
 
 -- All options
 local set = vim.opt
 
   -- General
-  set.ve += "onemore"
-  set.nocompatible = true
   set.number = true
-  set.filetype = "plugin, indent, on"
-  set.fileencodings = "utf-8, latin"
   set.encoding = "utf-8"
   set.title = true
   set.autoindent = true
   set.mouse = "a"
   set.background = "dark"
-  set.noswapfile = true
-  set.nobackup = true
+  set.swapfile = false
+  set.backup = false
   set.hlsearch = true
   set.showcmd = true
   set.cmdheight = 1
@@ -52,11 +54,10 @@ local set = vim.opt
   set.scrolloff = 10
   set.expandtab = true
   set.shell = "fish"
-  set.backupskip = "/tmp/*,/private/tmp/*"
   set.inccommand = "split"
-  set.nosc = true
-  set.noru = true
-  set.nosm = true
+  set.sc = false
+  set.ru = false
+  set.sm = false
   set.lazyredraw = true
   set.ignorecase = true
   set.relativenumber = true
@@ -67,13 +68,10 @@ local set = vim.opt
   set.tabstop= 2
   set.ai = true
   set.si = true
-  set.nowrap = true
-  set.backspace = "start, eol, indent"
-  set.path += "**"
+  set.wrap = false
+  set.backspace = { "indent", "eol", "start" }
   set.wildignore = "*/node-modules/*"
-  set.formatoptions += "r"
   set.cursorline = true
-  set.suffixesadd = "js,.es,.jsx,.json,.css,.less,.sass,.styl,.php,.py,.md"
   
   -- Color stuff
   set.termguicolors = true
@@ -88,17 +86,16 @@ require('plug')
 require('mappings')
   
 -- Plugin config requires
-require('plugconfigs/autopairs.rc.lua')
-require('plugconfigs/defx.rc.lua')
-require('plugconfigs/fugitive.rc.lua')
-require('plugconfigs/lsp-colors.rc.lua')
-require('plugconfigs/lspconfig.rc.lua')
-require('plugconfigs/lspsaga.rc.lua')
-require('plugconfigs/tabline.rc.lua')
-require('plugconfigs/telescope.rc.lua')
-require('plugconfigs/treesitter.rc.lua')
-require('plugconfigs/web-devicons.rc.lua')
-require('plugconfigs/lualine.rc.lua')
+require('plugconfigs.autopairs')
+require('plugconfigs.fugitive')
+require('plugconfigs.lsp-colors')
+require('plugconfigs.lspconfig')
+require('plugconfigs.lspsaga')
+require('plugconfigs.tabline')
+require('plugconfigs.telescope')
+require('plugconfigs.treesitter')
+require('plugconfigs.web-devicons')
+require('plugconfigs.lualine')
 
 
 

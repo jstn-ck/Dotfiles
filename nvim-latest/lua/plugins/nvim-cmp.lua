@@ -64,7 +64,6 @@ cmp.setup {
     end
   },
 
-  -- Load sources, see: https://github.com/topics/nvim-cmp
   sources = {
     { name = 'nvim_lsp' },
     { name = 'luasnip' },

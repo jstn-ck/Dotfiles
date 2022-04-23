@@ -1,10 +1,12 @@
 require('packer_init')
 require('autocmds')
 require('maps')
-require('plugins/indent-blankline')
 require('plugins/nvim-cmp')
+require('plugins/lualine')
 require('plugins/nvim-lspconfig')
 require('plugins/nvim-treesitter')
+require('plugins/nvim-tree')
+require('plugins/telescope')
 
 local g = vim.a
 local opt = vim.opt
@@ -17,10 +19,6 @@ opt.completeopt = 'menuone,noselect'
 opt.number = true
 opt.showmatch = true
 opt.foldmethod = 'marker'
-opt.colorcolumn = '80'
-opt.relativenumber = true
-opt.splitright = true
-opt.splitbelow = true
 opt.ignorecase = true
 opt.smartcase = true
 opt.linebreak = true
@@ -47,7 +45,7 @@ opt.path = '**'
 opt.wildignore = '*/node-modules/*'
 opt.cursorline = true
 
-opt.undodir = '~/.config/nvim/.undo//'
+opt.undodir = '~/.config/nvim/.undo/'
 
 -- TODO DISABLE BUILTINS
 -- local disabled_built_ins = {

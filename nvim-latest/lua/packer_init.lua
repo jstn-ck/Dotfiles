@@ -20,7 +20,6 @@ end
 -- JCK Plugins
 return packer.startup(function(use)
   use 'wbthomason/packer.nvim'
-  use 'lukas-reineke/indent-blankline.nvim'
   use {
     'windwp/nvim-autopairs',
     config = function()
@@ -61,7 +60,7 @@ return packer.startup(function(use)
   use 'tpope/vim-rhubarb'
   use 'mattn/emmet-vim'
   use 'tpope/vim-commentary'
-
+  use 'kyazdani42/nvim-tree.lua'
 
 
   if packer_bootstrap then

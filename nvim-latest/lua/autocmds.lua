@@ -10,6 +10,11 @@ autocmd('TextYankPost', {
   end
 })
 
+autocmd ('BufWritePre', {
+  pattern = '*',
+  command = 'set ff=unix'
+})
+
 -- -- Remove whitespace on save
 -- autocmd('BufWritePre', {
 --   pattern = '*',
@@ -22,14 +27,14 @@ autocmd('BufEnter', {
   command = 'set fo-=c fo-=r fo-=o'
 })
 
--- Settings for fyletypes:
--- Disable line lenght marker
-augroup('setLineLenght', { clear = true })
-autocmd('Filetype', {
-  group = 'setLineLenght',
-  pattern = { 'text', 'markdown', 'html', 'xhtml', 'javascript', 'typescript' },
-  command = 'setlocal cc=0'
-})
+-- -- Settings for fyletypes:
+-- -- Disable line lenght marker
+-- augroup('setLineLenght', { clear = true })
+-- autocmd('Filetype', {
+--   group = 'setLineLenght',
+--   pattern = { 'text', 'markdown', 'html', 'xhtml', 'javascript', 'typescript' },
+--   command = 'setlocal cc=0'
+-- })
 
 -- -- Set indentation to 2 spaces
 -- augroup('setIndent', { clear = true })

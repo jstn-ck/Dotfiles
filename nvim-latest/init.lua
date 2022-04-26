@@ -27,6 +27,7 @@ opt.laststatus= 2
 opt.title = true
 opt.expandtab = true
 opt.shiftwidth = 2
+opt.undofile = true
 opt.tabstop = 2
 opt.smartindent = true
 opt.autoindent = true
@@ -35,6 +36,7 @@ opt.cmdheight = 1
 opt.hidden = true
 opt.history = 100
 opt.lazyredraw = true
+opt.ttyfast = true
 opt.synmaxcol = 240
 opt.updatetime = 700
 opt.shell = 'fish'
@@ -45,7 +47,6 @@ opt.path = '**'
 opt.wildignore = '*/node-modules/*'
 opt.cursorline = true
 
-opt.undodir = '~/.config/nvim/.undo/'
 
 -- TODO DISABLE BUILTINS
 -- local disabled_built_ins = {

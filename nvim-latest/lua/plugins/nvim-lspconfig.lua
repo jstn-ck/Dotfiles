@@ -10,9 +10,10 @@ end
 
 vim.diagnostic.config({ virtual_text = true })
 
-vim.cmd([[
-  autocmd CursorHold,CursorHoldI * lua vim.diagnostic.open_float(nil, { focus = false })
-]])
+-- DIAGNOSTIC HOVER
+-- vim.cmd([[
+--   autocmd CursorHold,CursorHoldI * lua vim.diagnostic.open_float(nil, { focus = false })
+-- ]])
 
 local capabilities = vim.lsp.protocol.make_client_capabilities()
 capabilities = cmp_nvim_lsp.update_capabilities(capabilities)

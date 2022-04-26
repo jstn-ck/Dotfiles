@@ -20,7 +20,6 @@ nvim_tree.setup {
   open_on_setup = false,
   open_on_setup_file = false,
   open_on_tab = true,
-  auto_close = false,
   update_cwd = true,
   view = { width = 32 },
   renderer = {
@@ -35,6 +34,9 @@ nvim_tree.setup {
   },
   actions = {
     change_dir = { enable = false },
+    open_file = {
+      quit_on_open = true,
+    },
   },
   update_focused_file = {
     enable = true,

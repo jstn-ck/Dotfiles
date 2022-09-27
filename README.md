@@ -9,7 +9,7 @@ Shell: [Fish](https://fishshell.com/)<br>
 Neovim Colorscheme: [NeoSolarized](https://github.com/overcache/NeoSolarized)
 
 # Setup Steps
-	1. Install Iterm2
+	1. Install Iterm2 -> installs developer tools
 	2. Increase key repeat like below
 	3. Install Homebrew
 	4. Install XCode

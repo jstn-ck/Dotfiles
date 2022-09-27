@@ -9,6 +9,8 @@ Shell: [Fish](https://fishshell.com/)<br>
 Neovim Colorscheme: [NeoSolarized](https://github.com/overcache/NeoSolarized)
 
 # Setup Steps
+	1. Install Iterm2
+	2. Increase key repeat like below
   1. Install Homebrew
   2. Update everything
   3. Install all apps for development: `npm yarn n neovim autojump ddev docker fish ruby nerd-font tmux iterm2 git curl python cargo`

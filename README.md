@@ -11,16 +11,16 @@ Neovim Colorscheme: [NeoSolarized](https://github.com/overcache/NeoSolarized)
 # Setup Steps
 	1. Install Iterm2
 	2. Increase key repeat like below
-  1. Install Homebrew
-  2. Update everything
-  3. Install all apps for development: `npm yarn n neovim autojump ddev docker fish ruby nerd-font tmux iterm2 git curl python cargo`
-  4. Setup Fish shell
-  5. Setup Neovim
-	- :PackerInstall
-	- :PackerUpdate
-	- :PackerCompile
-	- :PackerSync
-	- :PackerClean
+	3. Install Homebrew
+	4. Install XCode
+	5. Update everything
+	6. Install apps for Dev: `npm/node mysql/postgresql yarn n neovim autojump ddev docker fish ruby nerd-font tmux iterm2 git curl python cargo`
+	7. Disable dstore like below
+	8. Set font
+	9. Setup iterm settings
+	10. setup fish shell
+	11. import neovim
+	12. update everything
 
 ## Updating
 - brew update<br>

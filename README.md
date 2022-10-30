@@ -14,7 +14,7 @@ Neovim Colorscheme: [NeoSolarized](https://github.com/overcache/NeoSolarized)
 	3. Install Homebrew
 	4. Install XCode
 	5. Update everything
-	6. Install apps for Dev: `npm/node mysql/postgresql yarn n neovim autojump ddev docker fish ruby nerd-font tmux iterm2 git curl python cargo`
+	6. Install apps for Dev: `npm/node mysql/postgresql yarn n neovim autojump ddev docker fish rectangle ruby nerd-font tmux iterm2 git curl python cargo`
 	7. Disable dstore like below
 	8. Set font
 	9. Setup iterm settings

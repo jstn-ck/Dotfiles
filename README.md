@@ -20,7 +20,6 @@ Neovim Colorscheme: [NeoSolarized](https://github.com/overcache/NeoSolarized)
 	9. Setup iterm settings
 	10. setup fish shell
 	11. import neovim
-	12. update everything
 
 ## Updating
 - brew update<br>

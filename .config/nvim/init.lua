@@ -1,34 +1,68 @@
-vim.defer_fn(function()
-  pcall(require, "impatient")
-end, 0)
+require('jck.maps')
+require('jck.plugins')
 
-require "core"
-require "core.options"
+vim.cmd("autocmd!")
 
--- setup packer + plugins
-local fn = vim.fn
-local install_path = fn.stdpath "data" .. "/site/pack/packer/opt/packer.nvim"
+vim.scriptencoding = 'utf-8'
+vim.opt.encoding = 'utf-8'
+vim.opt.fileencoding = 'utf-8'
+vim.wo.number = true
 
-if fn.empty(fn.glob(install_path)) > 0 then
-  vim.api.nvim_set_hl(0, "NormalFloat", { bg = "#1e222a" })
-  print "Cloning packer .."
-  fn.system { "git", "clone", "--depth", "1", "https://github.com/wbthomason/packer.nvim", install_path }
+local g = vim.a
+local opt = vim.opt
 
-  -- install plugins + compile their configs
-  vim.cmd "packadd packer.nvim"
-  require "plugins"
-  vim.cmd "PackerSync"
+opt.mouse = 'a'
+opt.ve = 'onemore'
+opt.clipboard = 'unnamedplus'
+opt.swapfile = false
+opt.completeopt = 'menuone,noselect'
+opt.number = true
+opt.showmatch = true
+opt.foldmethod = 'marker'
+opt.ignorecase = true
+opt.smartcase = true
+opt.linebreak = true
+opt.termguicolors = true
+opt.laststatus = 2
+opt.title = true
+opt.expandtab = true
+opt.shiftwidth = 2
+opt.undofile = true
+opt.tabstop = 2
+opt.smartindent = true
+opt.autoindent = true
+opt.winblend = 0
+opt.wildoptions = 'pum'
+opt.pumblend = 5
+opt.showcmd = true
+opt.background = 'dark'
+opt.cmdheight = 1
+opt.hidden = true
+opt.history = 100
+opt.lazyredraw = true
+opt.ttyfast = true
+opt.synmaxcol = 240
+opt.updatetime = 700
+opt.shell = 'zsh'
+opt.shortmess:append "sI"
+opt.hlsearch = true
+opt.smarttab = true
+opt.backupskip = { '/tmp/*', '/private/tmp/*' }
+opt.backspace = { 'start', 'eol', 'indent' }
+opt.path:append { '**' } -- Finding files - Search down into subfolders
+opt.wildignore:append { '*/node_modules/*' }
 
-  -- install binaries from mason.nvim & tsparsers
-  vim.api.nvim_create_autocmd("User", {
-    pattern = "PackerComplete",
-    callback = function()
-      vim.cmd "bw | silent! MasonInstallAll" -- close packer window
-      require("packer").loader "nvim-treesitter"
-    end,
-  })
-end
+-- Undercurl
+vim.cmd([[let &t_Cs = "\e[4:3m"]])
+vim.cmd([[let &t_Ce = "\e[4:0m"]])
 
-pcall(require, "custom")
+-- Turn off paste mode when leaving insert
+vim.api.nvim_create_autocmd("InsertLeave", {
+  pattern = '*',
+  command = "set nopaste"
+})
 
-require("core.utils").load_mappings()
+-- Add asterisks in block comments
+opt.formatoptions:append { 'r' }
+
+vim.cmd [[colorscheme tokyonight]]

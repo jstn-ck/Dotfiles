@@ -5,8 +5,8 @@ Some configs from: https://github.com/craftzdog/dotfiles-public
 Terminal Theme: [Solarized](https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/schemes/Solarized%20Dark%20-%20Patched.itermcolors)<br>
 Fonts: Nerd Font<br>
 Terminal: Iterm2<br>
-Shell: [Fish](https://fishshell.com/)<br>
-Neovim Colorscheme: [NeoSolarized](https://github.com/overcache/NeoSolarized)
+Shell: Zsh<br>
+Neovim Colorscheme: [Tokyonight](https://github.com/folke/tokyonight.nvim)
 
 # Setup Steps
 	1. Install Iterm2 -> installs developer tools
@@ -14,7 +14,7 @@ Neovim Colorscheme: [NeoSolarized](https://github.com/overcache/NeoSolarized)
 	3. Install Homebrew
 	4. Install XCode
 	5. Update everything
-	6. Install apps for Dev: `npm/node mysql/postgresql yarn n gnu-sed neovim autojump ddev docker fish rectangle ruby nerd-font tmux iterm2 git curl python cargo`
+	6. Install apps for Dev: `npm/node mysql/postgresql yarn ripgrep fd n gnu-sed neovim autojump ddev docker fish rectangle ruby nerd-font tmux iterm2 git curl python cargo`
 	7. Disable dstore like below
 	8. Set font
 	9. Setup iterm settings
@@ -87,6 +87,31 @@ brew install --cask font-hack-nerd-font
 11. :UpdateRemotePlugins
 12. if telescope error, delete and install: telescope -> fzfnative -> change telescope.rc
 
+## Neovim Plugins
+1. Lualine // fancy statusline
+2. Plenary // useful functions for lua configs
+3. LspKind // Useful vscode pictograms for autocompletion 
+4. Tokyonight // Colorscheme
+5. cmp-nvim-lsp // Lsp source
+6. nvim-cmp // Autocompletion
+7. nvim-lspconfig // LSP
+8. null-ls.nvim // for non lsp clients
+9. mason // lsp installer
+10. mason-lspconfig // bridge between mason and lspconfig
+11. lspsaga // lsp UI
+12. LuaSnip // Useful snippet managing
+13. Treesitter // Highlighting
+14. nvim-web-devicons // File Icons
+15. telescope // File/Code finder
+16. telescope-file-browser // File browser
+17. autopairs
+18. autotags // close html tags
+19. comment // easy commenting
+20. colorizer // color highlighting
+21. Zen Mode // distraction free coding
+22. nvim-bufferline
+23. gitsigns // git diff lines
+24. git // git browse
 ## Vim Keymaps
 - ss : splithor
 - sv : splitvert

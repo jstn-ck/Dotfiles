@@ -22,9 +22,4 @@ map('v', 'sc', '"*yy')
 map('n', 'Y', 'v$')
 
 map('n', 'sf', ':NvimTreeToggle<CR>')            
-map('n', '<C-f>f', ':NvimTreeFindFile<CR>')      
-
--- -- Terminal mappings
--- map('n', '<C-t>', ':Term<CR>', { noremap = true }) 
--- map('t', '<Esc>', '<C-\\><C-n>')                   
-
+map('n', '<C-f>f', ':NvimTreeFindFile<CR>')

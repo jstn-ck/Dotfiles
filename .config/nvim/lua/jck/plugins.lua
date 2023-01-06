@@ -28,8 +28,9 @@ packer.startup(function(use)
   use 'kyazdani42/nvim-web-devicons' -- File icons
   use 'nvim-telescope/telescope.nvim'
   use 'nvim-telescope/telescope-file-browser.nvim'
+  use 'windwp/nvim-spectre'
   use 'windwp/nvim-autopairs'
-  use { 'numToString/Comment.nvim',
+  use { 'numToStr/Comment.nvim',
     requires = {
       'JoosepAlviste/nvim-ts-context-commentstring'
     }
